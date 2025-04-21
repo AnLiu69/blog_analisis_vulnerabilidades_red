@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import "../styles/markdown.css";
+
+const { frontmatter } = Astro.props;
+
+const dateOptions: object = {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+};
+
+const publishDate = new Date(frontmatter.pubDate).toLocaleDateString("es-ES", dateOptions);
+---
+
+<BaseLayout pageTitle={frontmatter.title}>
+  <h1>{frontmatter.title}</h1>
+  <slot />
+</BaseLayout>
+
+<style>
+  .taglist {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .taglist__item {
+    background-color: #616161;
+    padding: 3px 12px;
+    border-radius: 100px;
+  }
+
+  .taglist__item:hover {
+    opacity: 0.7;
+  }
+
+  .taglist__link {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    font-size: var(--fs-300);
+  }
+
+  .taglist__link:hover {
+    color: rgb(230, 230, 230);
+  }
+</style>
