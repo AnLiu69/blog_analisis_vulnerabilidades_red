@@ -147,6 +147,7 @@ order: 6
     - **Entrevista realizada al gerente:**   
     En esta entrevista se recolecto la información relacionada a los factores ambientales de la empresa y los activos de los procesos de la organización
     [Cuestionario de preguntas](https://drive.google.com/file/d/185SsD_mluJr5nOuaApIf8bq4qmznVv9B/view?usp=drive_link)  
+    [Foto de la entrevista con el gerente](https://drive.google.com/file/d/1Y-uFWojZtacCzlTd3-iG3c2JrnR5ow3q/view?usp=drive_link)  
     - **Entrevista realizada a los stakeholders:**   
     En estas cortas entrevistas se recolectaron las percepciones y requerimientos de los interesados en el proyecto  
     [Entrevistas realizadas](https://drive.google.com/file/d/1COC6aAY-x1igH31xDQrubYZ1--UZqhp5/view?usp=drive_link)  
