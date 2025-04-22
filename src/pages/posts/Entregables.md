@@ -6,7 +6,7 @@ order: 6
 
 ### ANÁLISIS DE LOS INTERESADOS 
 
-## 📥 Entradazasasasa
+## 📥 Entradas
 
 - **Documentos de negocio:**
     - ✓ Caso de negocio
