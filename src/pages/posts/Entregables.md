@@ -166,10 +166,10 @@ order: 6
     - **Stakelholder: Yamile Jimenez Quispe –(Ayudante de Administración –  Exempleada)**  
     ![Flecha del sexto stakeholder](/STK6.JPG) 
   - ✓ Buyer Persona 
-    En este buyer persona se ennfoca en un prototipo de usuario del software, basado en un perfil de operario de producción 
-    [ Buyer persona Operario](https://drive.google.com/file/d/1uYmVFmmR1EMauW3VGlIyeEIHthf2jeuH/view?usp=drive_link)  
+    En este buyer persona se ennfoca en un prototipo de usuario del software, basado en un perfil de operario de producción  
+    [Buyer persona Operario](https://drive.google.com/file/d/1uYmVFmmR1EMauW3VGlIyeEIHthf2jeuH/view?usp=drive_link)  
   - ✓ Mapa de empatía 
-    En este mapa de empatía se enfoca en un stakeholder que será el administradorn 
+    En este mapa de empatía se enfoca en un stakeholder que será el administradorn  
     [Mapa de empatía](https://drive.google.com/file/d/1N_pIL80Xs7q1ypDbhNT-sN-v94zZp-L-/view?usp=drive_link)
 
 - **Representación de datos:**
