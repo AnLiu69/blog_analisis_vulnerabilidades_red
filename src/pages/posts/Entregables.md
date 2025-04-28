@@ -155,7 +155,7 @@ order: 6
 - **Análisis de datos:**
   - ✓ Análisis de interesados  
     - **Stakelholder: Oswaldo Jimenez Dulanto (Gerente General)**  
-    ![Flecha del primer stakeholder](/STK1.JPG)   
+    ![Flecha del primer stakeholder](/STK1.JPG)  
     - **Stakelholder: Hilda Jimenez Bravo (Gerente Administrativa)**  
     ![Flecha del segundo stakeholder](/STK2.JPG)  
     - **Stakelholder: Giancarlos (Operario de Maquinaria de Impresión)**  
@@ -164,14 +164,19 @@ order: 6
     ![Flecha del cuarto stakeholder](/STK4.JPG) 
     - **Stakelholder: Raúl  (Operario de Corte)**  
     ![Flecha del quinto stakeholder](/STK5.JPG) 
-    - **Stakelholder: Yamile Jimenez Quispe –(Ayudante de Administración –  Exempleada)**  
+    - **Stakelholder: Yamile Jimenez Quispe (Ayudante de Administración –  Exempleada)**  
     ![Flecha del sexto stakeholder](/STK6.JPG) 
-  - ✓ Buyer Persona 
+  - ✓ Buyer Persona  
     En este buyer persona se ennfoca en un prototipo de usuario del software, basado en un perfil de operario de producción  
     [Buyer persona Operario](https://drive.google.com/file/d/1uYmVFmmR1EMauW3VGlIyeEIHthf2jeuH/view?usp=drive_link)  
-  - ✓ Mapa de empatía 
-    En este mapa de empatía se enfoca en un stakeholder que será el administradorn  
-    [Mapa de empatía](https://drive.google.com/file/d/1N_pIL80Xs7q1ypDbhNT-sN-v94zZp-L-/view?usp=drive_link)
+  - ✓ Mapa de empatía  
+    Estos mapas de empatía relatan que piensan, ven, oyen, hacen y dicen los stakeholders; no dejando de lado sus deseos o necesidades y sufrimientos  
+    [Mapa de empatía del stakeholder Oswaldo Jimenez Dulanto](https://drive.google.com/file/d/1N_pIL80Xs7q1ypDbhNT-sN-v94zZp-L-/view?usp=drive_link)  
+    [Mapa de empatía del stakeholder Hilda Jimenez Bravo](https://drive.google.com/file/d/1O4-CFvykWTVXLldScBKu5FvjexNO_rR8/view?usp=drive_link)  
+    [Mapa de empatía del stakeholder Giancarlos](https://drive.google.com/file/d/1oXvXQmlx1_JR2HDbdSHqGUkLz_7uRzxy/view?usp=drive_link)  
+    [Mapa de empatía del stakeholder Daria Jimenez Aguirre](https://drive.google.com/file/d/1GZtbCLuGakEdZk1OPNByeRI4DtWO4_Xi/view?usp=drive_link)  
+    [Mapa de empatía del stakeholder Raúl](https://drive.google.com/file/d/1UiszC1qxV20ICi0xZO04_VLez0ZskEiM/view?usp=drive_link)  
+    [Mapa de empatía del stakeholder Yamile Jimenez Quispe](hhttps://drive.google.com/file/d/1QN0nJqp7WPSdCvn8yeEvsHd8TXzhQQdo/view?usp=drive_link)
 
 - **Representación de datos:**
   - ✓ Mapeo / representación de interesados  
