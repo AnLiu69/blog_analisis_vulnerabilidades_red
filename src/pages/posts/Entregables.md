@@ -176,7 +176,7 @@ order: 6
     [Mapa de empatía del stakeholder Giancarlos](https://drive.google.com/file/d/1oXvXQmlx1_JR2HDbdSHqGUkLz_7uRzxy/view?usp=drive_link)  
     [Mapa de empatía del stakeholder Daria Jimenez Aguirre](https://drive.google.com/file/d/1GZtbCLuGakEdZk1OPNByeRI4DtWO4_Xi/view?usp=drive_link)  
     [Mapa de empatía del stakeholder Raúl](https://drive.google.com/file/d/1UiszC1qxV20ICi0xZO04_VLez0ZskEiM/view?usp=drive_link)  
-    [Mapa de empatía del stakeholder Yamile Jimenez Quispe](hhttps://drive.google.com/file/d/1QN0nJqp7WPSdCvn8yeEvsHd8TXzhQQdo/view?usp=drive_link)
+    [Mapa de empatía del stakeholder Yamile Jimenez Quispe](https://drive.google.com/file/d/1QN0nJqp7WPSdCvn8yeEvsHd8TXzhQQdo/view?usp=drive_link)
 
 - **Representación de datos:**
   - ✓ Mapeo / representación de interesados  
@@ -193,3 +193,14 @@ order: 6
 - **Registro de interesados**
     Gracias al análisis y su correspondiente maapeo anterior, podemos realizar nuestro registro de interesados; el cúal contiene información acerca de estos, tal como indetificación, clasificación y su gestión
     ![Registro de interesados](/RegistroInteresados.JPG)  
+---
+
+### ANÁLISIS DE PROBLEMAS Y OBJETIVOS
+
+## ÁRBOL DE PROBLEMAS
+  Dado un análisis inicial obtuvimos las causas, el problema central y los efectos  
+  [Árbol de problemas](https://drive.google.com/file/d/19XuBYY1vbvpyOXx7jXX6bt3v5VQa9a1s/view?usp=drive_link)
+
+## ÁRBOL DE OBJETIVOS
+  Dado un análisis del árbol de problemas, pudimos obetener medios, un objetivo principal y diferentes fines que ubicamos en el siguiente árbol  
+  [Árbol de objetivos](https://drive.google.com/file/d/1hW2Vscpk2Z79pA9oyw2uMA9Hl1rwP7Sy/view?usp=sharing)
