@@ -199,8 +199,8 @@ order: 6
 
 ## ÁRBOL DE PROBLEMAS
   Dado un análisis inicial obtuvimos las causas, el problema central y los efectos  
-  [Árbol de problemas](https://drive.google.com/file/d/19XuBYY1vbvpyOXx7jXX6bt3v5VQa9a1s/view?usp=drive_link)
+  [Árbol de problemas](https://drive.google.com/file/d/12mN5HIHzTYUwCdnnEIK95A3PwhjA3dhy/view?usp=sharing)
 
 ## ÁRBOL DE OBJETIVOS
   Dado un análisis del árbol de problemas, pudimos obetener medios, un objetivo principal y diferentes fines que ubicamos en el siguiente árbol  
-  [Árbol de objetivos](https://drive.google.com/file/d/1hW2Vscpk2Z79pA9oyw2uMA9Hl1rwP7Sy/view?usp=sharing)
+  [Árbol de objetivos](https://drive.google.com/file/d/1T90BJVDrVBMvvc6eFk6OFwdeB_y3QrnJ/view?usp=sharing)
