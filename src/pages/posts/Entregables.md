@@ -195,16 +195,42 @@ order: 6
     ![Registro de interesados](/RegistroInteresados.JPG)  
 ---
 
-### ANÁLISIS DE PROBLEMAS Y OBJETIVOS
+## ANÁLISIS DE PROBLEMAS Y OBJETIVOS
 
-## ÁRBOL DE PROBLEMAS
+### ÁRBOL DE PROBLEMAS
   Dado un análisis inicial obtuvimos las causas, el problema central y los efectos  
   [Árbol de problemas](https://drive.google.com/file/d/12mN5HIHzTYUwCdnnEIK95A3PwhjA3dhy/view?usp=sharing)
 
-## ÁRBOL DE OBJETIVOS
+### ÁRBOL DE OBJETIVOS
   Dado un análisis del árbol de problemas, pudimos obetener medios, un objetivo principal y diferentes fines que ubicamos en el siguiente árbol  
   [Árbol de objetivos](https://drive.google.com/file/d/1T90BJVDrVBMvvc6eFk6OFwdeB_y3QrnJ/view?usp=sharing)  
 
 ### PROPUESTA DE VALOR  
   Se hizo un análisis de las carácteristicas de la solución que se ofrece, los potenciadores que tiene para que el cliente sienta que se escucha lo que el necesita, a la vez de tratar las posibles aflicciones del cliente objetivo; dado esto se realizó un Lienzo de propuesta de valor para colocar gráficamente todas estas características del producto y del cliente.  
   [Lienzo de propuesta de valor](https://drive.google.com/file/d/1A_4v6jx0cK2S_np07iuZFK7omvFNV8Sy/view?usp=sharing)
+
+## ANÁLISIS DE ALTERNATIVAS
+
+### IDENTIFIACIÓN Y CLASIFICACIÓN DE ACCIONES
+  Ya teniendo los medios correspondientes de nuestro arbol de objetivos, los desglosaremos en acciones que nos servirán para alcanzar el medio dado y por consecuencia la situación positiva deseada.  
+  Se realizo con una lluvia de ideas en un docmuento compartido la generación de estas acciones, después de tener una buena cantidad de acciones, se limpiaron y quedaron las que podian estar más alineadas a cada medio.  
+  Por último se clasificaron las actividades en excluyentes y complementarias pra pasar al siguiente paso.  
+  [Lista de acciones](https://drive.google.com/file/d/1bmpBLka0kkIu7cxMzJffMXmYAjFkYC5e/view?usp=drive_link)
+
+### ORGANIZAR LAS ACCIONES IDENTIFICADAS EN PROYECTOS ALTERNATIVOS
+  Teniendo la lista de acciones ya hecha, esta nos servirá para organizarla en un mapa conceptual, en el cual ordenaremos las acciones con su respectivo medio y a la vez las identificaremos con colores y numeración distintiva para saber si son complementarias o excluyentes.  
+  Esto nos servirá para poder crear los proyectos alternativos que se generaran en base al ordenamiento anterior.  
+  ![Proyectos alternativos](/proyectosA.JPG)  
+  [Proyectos alternativos ordenados](https://drive.google.com/file/d/1zMDbq51J5d40oK8cvlysPuroopI_vdjq/view?usp=sharing)  
+
+### EVALUAR LOS PROYECTOS ALTERNATIVOS 
+  Por último los proyectos obtenidos en el paso anterior los organizaremos de manera tabular, para identificar a más detalles cuales son las acciones que pertenecen a los pryectos alternativos creados; al tener tabulados estos iniciaremos con la última etapa de este proceso, la evaluación de los proyectos alternativos.  
+  Para esto debemos contar con dos puntos importantes, los criterios de evaluación y un método de evaluación, en este caso estos se ven tabulados en la siguiente imagen.  
+  ![Criteros de evaluación](/criteriosE.JPG)  
+  Y nuestro medio de evaluación es el siguiente  
+  ![Medios de Evaluacion](/mediosE.JPG)  
+  Este medio se eligió por el expertis y conocimiento más elevado de uno de los integrantes del equipo en el tema en el que está involucrado el proyecto.  
+  Teniendo ya esto se podrá evaluar cada acción de cada componente de cada proyecto a la vez, teniendo una puntuación total por componente.  
+  Esta nos servirá para elegir quedarnos con uno de los proyectos alternativos, en este caso sería el que tenga menor puntaje.   
+  En nuestro caso será el proyecto número dos, esto debido a su bajo puntaje en la exhaustiva evaluación  
+  [Evaluación de proyectos](https://drive.google.com/file/d/1ivRukJbO1rBoxE8MkfxxJI0-AIHRPLQ8/view?usp=drive_link)
