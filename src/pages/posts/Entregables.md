@@ -207,7 +207,7 @@ order: 6
 
 ### PROPUESTA DE VALOR  
   Se hizo un análisis de las carácteristicas de la solución que se ofrece, los potenciadores que tiene para que el cliente sienta que se escucha lo que el necesita, a la vez de tratar las posibles aflicciones del cliente objetivo; dado esto se realizó un Lienzo de propuesta de valor para colocar gráficamente todas estas características del producto y del cliente.  
-  [Lienzo de propuesta de valor](https://drive.google.com/file/d/1A_4v6jx0cK2S_np07iuZFK7omvFNV8Sy/view?usp=sharing)
+  [Lienzo de propuesta de valor](https://drive.google.com/file/d/1TrcC51wf8p6k383KAMCwlIWIcZeB2QVr/view?usp=drive_link)
 
 ## ANÁLISIS DE ALTERNATIVAS
 
