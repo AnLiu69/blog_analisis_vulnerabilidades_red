@@ -233,4 +233,8 @@ order: 6
   Teniendo ya esto se podrá evaluar cada acción de cada componente de cada proyecto a la vez, teniendo una puntuación total por componente.  
   Esta nos servirá para elegir quedarnos con uno de los proyectos alternativos, en este caso sería el que tenga menor puntaje.   
   En nuestro caso será el proyecto número dos, esto debido a su bajo puntaje en la exhaustiva evaluación  
-  [Evaluación de proyectos](https://drive.google.com/file/d/1ivRukJbO1rBoxE8MkfxxJI0-AIHRPLQ8/view?usp=drive_link)
+  [Evaluación de proyectos](https://drive.google.com/file/d/1ivRukJbO1rBoxE8MkfxxJI0-AIHRPLQ8/view?usp=drive_link)  
+
+## PROTOTIPO DEL PROYECTO  
+  En este punto se presentará el prototipo de nuestro proyecto; este se dará como un video atractivo para el cliente, este describe los puntos fuertes a desarrollar y también los beneficios que tendrá la empresa que elija nuestro servicio.  
+  [Video promocional](https://drive.google.com/file/d/1CG63z44OkIjnIdi-mVNM8DXJ5iuKGfKe/view?usp=drive_link) 
