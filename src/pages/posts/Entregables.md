@@ -524,10 +524,283 @@ order: 6
     
 ## 📤 Salidas
 
-- **Linea base del alcance**  
+- <span id="linea-base-alcance"><strong>Linea base del alcance</strong></span>
   La línea base del alcance consta de tres documentos, estos son el Enunciado del alcance del proyecto, la Estructura de Desglose de Trabajo (EDT) y el Diccionario EDT; esta colección de documentos dictaminarán el alcance base del proyecto.  
   # 
   El enunciado del proyecto se puede visualizar en el archivo [Enunciado del Proyecto](https://drive.google.com/file/d/1ptYPtbbWfRK5R3MY4Z4d1ug2QnZ-J2_c/view?usp=sharing)  
   #  
   La Estructura de Desglose de Trabajo (EDT) y el Diccionario EDT se visualizan en el siguiente enlace [Conjunto EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)
+---  
+## GESTIÓN DEL CRONOGRAMA DEL PROYECTO
+### PLANIFICAR LA GESTIÓN DEL CRONOGRAMA 
+
+## 📥 Entradas
+
+- **Plan para la dirección del proyecto:**
+    - ✓ Plan para la gestión del alcance  
+    El detallado, puntos clave sobre el EDT, y el alcance se detallan en el punto [Plan de gestión de alcance](#gestion-alcance)
+    - ✓ Enfoque de desarrollo  
+    ![Enfoque de desarrollo](/enfoque.JPG) 
+
+- **Factores ambientales de la empresa**  
+  La lista de factores ambientales tanto internos como externos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Factores de la empresa](#factores-empresa) 
+
+- **Activos de los procesos de la organización**  
+  La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
+
+## 🛠️ Herramientas y Técnicas
+
+- **Análisis de datos:**
+  - ✓ Metodología de Programación 
+    * Aplicación al proyecto: Se empleará una metodología híbrida
+      * Predictiva (estructurada): Para la planificación del proyecto, creación de la EDT, documentación técnica, cronograma y entregables.  
+      * Adaptativa (ágil): Para la implementación y ajustes del IDS, donde pueden surgir variaciones técnicas no previstas.  
+  # 
+  - ✓ Herramientas y técnicas de programación
+    * Herramientas:  
+      * Project Libre: Base del cronograma por facilidad de uso y disponibilidad  
+      * Jira: Para el control de tareas ágiles del IDS  
+      * Canva o draw.io: Para visualizar la EDT.
+      * Diagrama de Gantt(también en jira): Para planificar actividades con dependencias.  
+  #  
+  - ✓ Enfoques de Estimación
+    * Se usarán métodos combinados:  
+      * Estimación de tres valores (PERT):  
+      Para tareas de implementación práctica donde hay alta incertidumbre (e.g., ajustes en Python y/o scripts en bash) 
+      * Estimación ascendente:  
+      Es la técnica más detallada y precisa, ya que construye la duración total del proyecto  
+  #  
+  - ✓ Formatos
+    * Se crearán los siguientes formatos (no existen aún):  
+      * Formato de EDT: con código, nombre, entregable, responsable 
+      * Plantilla de cronograma: tareas, duración, inicio/fin, responsable  
+      * Formato de avance por semana/sprint.
+      * Checklist de entregables.  
+  #  
+  - ✓ Software de Gestión de Proyectos
+    * Inicialmente se utilizarán:  
+      * ProjectLibre para cronograma principal. 
+      * JIRA para tareas del IDS y seguimiento
+      * Canva para representar la EDT visualmente
+    * Opcional si hay presupuesto:  
+      * MS Project
+      
+
+## 📤 Salidas
+
+- <span id="gestion-cronograma"><strong>Plan de gestión del cronograma</strong></span>  
+El plan de gestión del cronograma comprende varios puntos importantes, tales como el modelo de programación, su nivel de exactitud, umbrales de control, etc. Estos puntos son la base para los procesos siguientes y la realización de un cronograma en condiciones; todos estos puntos se detallan de manera formal en el siguiente documento.  
+[Plan de gestión del cronograma](https://drive.google.com/file/d/1RT7FXNLoZkGi3VZPWeR3de5lhTM-1tar/view?usp=drive_link)
+  
+---  
+### DEFINIR ACTIVIDADES
+
+## 📥 Entradas
+
+- **Plan para la dirección del proyecto**  
+  - ✓ Plan de gestión del cronograma  
+    El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
+    # 
+  - ✓ Linea base del alcance  
+    ELa línea base del alcance es una colección de documentos que dicatminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance)  
+    
+- **Factores ambientales de la empresa**  
+  La lista de factores ambientales tanto internos como externos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Factores de la empresa](#factores-empresa) 
+
+- **Activos de los procesos de la organización**  
+  La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
+
+## 🛠️ Herramientas y Técnicas
+
+- **Descomposición:**  
+La descomposición se basa en desglosar o dividir los paquetes de trabajo del EDT en actividades que serviran para completar su realización.  
+Partiremos del EDT realizado en procesos anteriores para ubicar paquetes y con ellos ya identificados, desglosarlos en sus respectivas actividades.
+El EDT referenciado se puede ver en [EDT](https://drive.google.com/file/d/1QTo1N8TR9stiNtWrJztYX9K5d4H3atXe/view?usp=sharing)  
+La descomposición en las actividades se puede visualizar en [Descomposición](https://lucid.app/lucidchart/6b84265c-e566-4875-85e1-f3fcee6586f3/edit?viewport_loc=-515%2C-1261%2C5065%2C2891%2C0_0&invitationId=inv_6d9801dc-e6b2-4cb6-8039-ae9f2a6a49c1) 
+   
+## 📤 Salidas
+
+- <span id="lista-actividades"><strong>Lista de actividades</strong></span>  
+  La lista de actividades se derivan directamente del EDT, los paquetes están descompuestos a nivel accionable para su ingreso futuro en JIRA como issues/subtareas; la lista completa de estas se puede visualizar en 
+  [Lista de actividades](https://drive.google.com/file/d/1A-ckDxhsOH_A4gE4DOUweukBt9DAB17O/view?usp=sharing)  
+- <span id="atributos-actividades"><strong>Atributos de las actividades</strong></span>  
+  Los atributos de las actividades nos dará un detalle más amplio de cada una, responsables, actividades predecesoras si se da el caso y sus tipos; todo esto se puede visualizar en la tabla [Atributos de actividades](https://docs.google.com/spreadsheets/d/1Rak5RHlCbbYKZIUCNiDwvkInIej2g28KfttzR1twyz4/edit?usp=sharing)  
+- <span id="lista-hitos"><strong>Lista de hitos</strong></span>  
+  La lista de hitos no es más que momentos de entrega que marcarán el progreso del proyecto en el cronograma.  
+  ![Lista de hitos](/ListaHitos.JPG)
+---  
+### SECUENCIAR ACTIVIDADES
+
+## 📥 Entradas
+
+- **Plan para la dirección del proyecto**  
+  - ✓ Plan de gestión del cronograma  
+    El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
+    # 
+  - ✓ Linea base del alcance  
+    ELa línea base del alcance es una colección de documentos que dicatminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance)  
+
+- **Documentos del proyecto**  
+  - ✓ Atributos de la actividad 
+    Aquí se veran relaciones entre las actividades que pueden ser predecesoras o sucesoras, a la vez que su tipo y más detalles; la lista de estos junto a su actividad correspondiente se puede ver en el punto [Atributos de actividades](#atributos-actividades)  
+  - ✓ Lista de actividades  
+    El visionado de la lista completa de actividades se puede realizar en el punto [Lista de actividades](#lista-actividades)  
+  - ✓ Lista de hitos  
+    La lista de eventos que influiran en el proyecto y en la manera que se secuencian las actividades se puede visualizar en el punto [Lista de hitos](#lista-hitos) 
+
+- **Factores ambientales de la empresa**  
+  La lista de factores ambientales tanto internos como externos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Factores de la empresa](#factores-empresa) 
+
+- **Activos de los procesos de la organización**  
+  La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
+
+## 🛠️ Herramientas y Técnicas
+
+- **Método de diagramación por precedencia (PDM):**  
+  - ✓ En este método se representa las actividades en nodos, estas están conectadas entre sí por una o más relaciones lógicas; pero lo más importante son las dependencias que pueden presentar, estas pueden ser FS, SS, FF o SF.  
+  Se realizó una detallada conexión entre actividades considerando cada una de sus dependencias que serían necesarias para pasar a la siguiente actividad; el visionado de esto se puede realizar en el documento llamado [PDM](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama.drawio&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22P%C3%A1gina-1%22%20id%3D%22PZh_bhHEmc_F6ysopFds%22%3E7V1bk5u4Ev41rtrz4JS5m8e57qZq92wqU7Vn91EDskcJRiyXSSa%2F%2FkiAsEE4ZsYYtULmZYwsYyN199dqfd1aWDe7r7%2BmKHn6g4Y4Wpir8OvCul2YpmEba%2FaPt7xULZ5rVw3blIR1p33DA%2FmG68ZV3VqQEGetjjmlUU6SdmNA4xgHeasNpSn90u62oVH7WxO0xVLDQ4AiufV%2FJMyfqta16e3bf8Nk%2ByS%2B2XD96p0dEp3rJ8meUEi%2FHDRZdwvrJqU0r17tvt7giA%2BeGJfqc%2FdH3m1%2BWIrjfMgHbPrR%2BDf0I%2B8Of34prt7fbdL7pWHVPy5%2FEU%2BMQzYA9SVN8ye6pTGK7vat1ykt4hDz267Y1b7P75QmrNFgjZ9wnr%2FUs4mKnLKmp3wX1e%2ByX5y%2B%2FF1%2Fvrz4h1%2B8c8Tl7dfDN29f6iv5ketRyGiRBvh7z1mLDkq3OP9OP7Pqx8fg4AvqAf0V0x1mv4d1SHGEcvLcFhJUy9q26befDvainpFXzI7lVDd%2BRlFRf9X9Q%2B%2BE%2FY4emeK1BhlFZBuz1wEbLJyyhmec5oRJ9lX9xo6EYTWfOCPf0GN5Pz7MCSVxXj6Lc71wbnsH%2FrvSVCtjfcu9CvBfgL9%2Bd2Drd5erd%2BbKr1Vp8GDXt%2FvAf%2F9BF7rZZGzWu7PRfOvbJ8g2dVKfiAsJ%2B8IQpzc0okwmbkO8QUXE5vQ6y1P6GYv2hWmt2J%2FrTqJ1hje22nUkQcjcevVudfBX36CGJkOIqbhh9bvre%2ByF5ypN0ctBt1pdjn%2Brv%2Br9nvsj%2Fb2zuntuqzt7Uf3eceXekgzTAzNM10IwIBonoavnGydmm%2By1C902GdIULUy3UvUExa1Zcv8tuBdyvaFxvvyM05jE24V1xfrENN2hqBxk0YkPYYSyrPXJP%2F%2F5cBdflQ4Wu8UGo7xI8ZLNJVqyJ%2By2B%2ByN3nYU5XU7m4p8GeKApmx4abyMaYxFMzNV5DPOn5gh3T7V7%2Bx%2Fnbvl%2F9%2FHWY4ilLLP%2FHeHEvHobCSrp696SeLats1fnkiOHxJUGrkvzMFtC%2FFRwzhclBqbI5S91t7Vl72z2fR5OnA07dVxUTvL5zDHEZsYayg0t3hDYpJWk7q4sRZXBh9UmvEFDL8TzgIUYwpVmkzfhiZNjk4O0ts9HWugp2OP7eict75wJWUHvb4Q0jTK%2BsJify1tMaEjuux0DTdYwHCusTjKLJM9Z5wjGebScm2UDlIWpCTJNcU49ZJkuvPAOGcgxrljY1z%2FutfsLKut7gQfWb6PZo09zcDTHRE87bXntUcfOnjKodRhVhAYcFqmanMn%2B4zzAc4PKd2maFfKy01K42p2ER9mZqB37KbfUEBKobJiXRBUvUiJ3TQ9EPQSkXJvILaux8bW89aP614IBB0GFrI2Shj47EWjQFSxc3Z5HJS9llcaNWCAaK9UWy9ZCeYDiH8xDQ5LyWEKWkQ5CuvYQ6TfSlK9JFkraVAA4%2BDb0c4fiHaCBAQF7vxeuAMLdUKcxlnxmZ29hfOA7%2FJAJ0%2FWMGMFDd%2FWqq2S0MKZ7iTfpLiUmSRCcU6iCIkQAYk37Jn4qw%2B399qAnHJxsvpXBz8cyBmD2U8mKJSzZXWHjXJtBvCZpEPfBR%2FJFIJ1MEFDbRQwbHOU8xOE7s1y8fae6Shb%2BXPB%2BYgTZlSZQvNBXuyD4XqAmno5subCo7eHgpoDC9Rkmwkb1MZk0jurldvSlzODlhNAnMzOGGCsgKGb66i2Soa86TmrlRuNN2RbVEKD4%2BeSIHVLF3Vgu%2BJLMUWmwltKS8HCmS64p17CbHsmuDd0g87wYeGeZgxPIU%2FjhCzFZGgDe%2FLm3Jzs9VXApqWOz25J1uKxPjO5KS8xH4aHP6GaaMNom2hPOT3RkAPhcxKqDsvriX5qgiPMyDAZi8RlRLfaIL96sbK1yuy4BGdHDPfppHIDlk%2FQT1wFzdqxx8z8sB3vzN3L%2Bl52%2BwOXcwxMOSb%2FWrsGDBfX6kmH806QbbYMUprTgBlGIS7s0cuFcUQykpUTZpab4xHaEe6E6QKRACRM3lx4nYureEQdeMnJcgrcnHT2YyUzVTyrEZegyvy75ZEssA6st4ImS46MqVprp%2FpEOOckotYfF3Id0iBbEu5EsjXAkpf6WuJHKwiRZy%2B9zWazXIeutXTDYL0MDAe7ThiuA76e7SrGMCOwYQgWvVQ24ColzASYN7w3irNlhlOyqQzBIwo%2Bb8vZXAbVgoF%2FgKldnIkJuxZKzqSFIPY%2FLnbsBoFkX9q9MMryJcrY6xMdmcngY8JD0d%2FvmNCMcFNy6ot39BOR%2Bwi%2FfVl79Ffl02c4IvV%2B9qoU42XG5ZgPRoQS5nWW%2FRLm2%2BP0GXfMaDMfaMdFPn7M%2BL%2Ff0COJSF6qVoDSBOeNs4qiHbt53DgXq4BsUhSio4bsAvaNj1W95DTMy9i7Xu10J9VOUxqkmS3YnaGb1w6szWtH9nrAL9iFtM20VIMjb2CfseAC5mmoTxh0RtrY1pK2dZeV6hRgLk3F7jFFEW78VPY6zY%2BDp2JJcsGlnjpzKd6wHop9o29g98dO3U75Bntg9cXRLLRm5RucmZdvkLMsB9lBYNCpPsdQ6PcsoVP4YO1aH0JWOrQwbVBUvVCJheyPjqKuORBFRRYJkBWkqxn9WcjTXIs0CDnrWT4ONV3QgE953qE70t6RlsB3wJ6vRCartKuc5hg3XIGGOqAJ8qmXKq0I0JeIqrruUEwcvcr%2FeTPXf7gG6KiqOyo9etyKDm1O1Evvxy%2BImDLR%2FdU2Dxhkqs9qdI%2Fz0UPyLFDhgeyK6ICTUBqNLMHBE83ooikmlaQFfjxcUx3cQvnYd4Gld%2BxFMsUkY%2B9pVRMPfyX53%2BIe7PXBp9jV%2FkP84vxlmHDoTzNvR1%2BGHQlm2u0ES8PriEX1SFIws%2Bcwl9X3b3ThqKjXX9EPLCB6o1Xz03Kb0fOVGIlJlV3wtC6uw%2BuO6q1H0mHTnVaHxe%2FuHM4EV4f9WevwWm3piObickB%2FkaPlhlajHz%2F55si6p5v9P9AFeO1pcrbd%2Fz3HrFG3%2F9pedaT4AufDrWX6C%2Fi1tdBDkCU36juvW%2Fe0Jltdr9dKbdR0hUmHpvT5E1kVwzA6K4uuV3JpZ0KzmqdCUmdKkzB8rdJyJ9BUY3WZ82hefQpsFxFOnevqm%2Bf1t80JgN7wNaNRNQoyTrlIQxRjrAddnLoK10L48urwI2YT8a2M4IYEbeOq1H9WV0YiMQnKXBnFIVq%2FG2NTHh4XTsAsd5Q%2F4hAFVUZPQqMmA7HJ68nwtkhJiEKoe8kGvLN3fVMn8L7Esl5sw5x2wGGl6PgapugIaZsrycqXgxSvMGrA0FB99q8%2F55yc%2FdESIQ2KnUhlLckGW8zmmblQ2gAhAFmaSVaOPzQrx4dVVlK3VZ8%2FavKMdifhyJv6WhyF08U49dmCvhwNnVP9mQ%2FFY8QUtc89Kqui8LMmUIl8IdmSHIHlEUuQp160jJVWTOK3Y14TkB0QuoXFGDZW%2FZRhsLDXyNRcl3iNrLUNdqs2zV2WFyGpStNUTOAyi%2FQ9L%2FF0%2F%2F6OVwjilB55Ja8aDtWn%2FTUKOss13x8owZLYoCAv6jzk50aMNAFBCAI1E6KBIQ5VPA2CYocJDAhqxghoZGqeiz%2Bj5%2FjO4ZYLGuQpz%2Fczek7fm9MS8LYObzbHDS7ESYO7JMLlOwdnxesFfwCEy5wL%2FA0%2BRw7YQXKG0bPTJ5%2BsCQj%2BhEzNFf7kXb632DBgQKg%2BN9SY%2BeFyPWGEfTWqIKUx3aZo1%2Bwcp%2FiZZAdCheJCo%2FAoAHETwSctd%2BsNy2sPqHqukTHzWvq3eENiIhZBOCbVDphIVj9AhQAx0SAtTACqto4DT8p64PeckVc9xF1FVs%2BVMMyTQPyz7P48yu7fReiRVhVPZA8kYysKZgmPnxCiR2F9ychB0MCZ0JUMcyhfyTBhEZYMUzPGUiNTM82Kb0Tt1e7pQLhRYmKheS8AaC%2BmvJ00ny3kziGOVYms0hmuzvQyAm5meMMvWVlli8lc9h%2Bw4uXY9gDxmrKKlmFpVZn4IpUyLHMoaAuQuHhWu9MpSjF18X9DlE7QKV%2BnkWWQue2iilLfPSdwF4SQHz8hd7BxVW1FuyANgJZjjRQr1BKk7z7hoMgPZIi%2FIBE9SPFJcJpxgNAGmftlalpkngvf2RrMd7aA8Z0t3fjO1tz5zpbMd36V%2BVJtpyTsU8%2FJsebMcb7jTy3niZWFbz4VmTjRVZsNsi4M9orXtDA4F8azGMLTMGgDYzxbujGeLcCMZ7XHBDRSeAiQb7Rxqo1ZFysBkHRsOazSc2DAR7wlDHwqlwRxbSBJi3HHnzLEGd4l9QKeAj02QAKU%2FjmYFFBsUydAAVNPWDj7A7Y2p4qS2v5IpwrIxKCJjxUwbA3rIzWaNNctWFtNhGbS0wUagtrl9zysjg6%2B9XwBmQEz8QEDhq1bXMgeLS6kqSbLYaGDop8kfi6zIUhZuYPHB%2FC%2FBUlopt6%2F8jqnhANgtNojxYM05U3vV0s440ulRcPVDUseDMkqcuQzBRsF8uGR8e2e481fMdCqR7SrpgA4mfZJXtFPVvQ8WNE3zKiSTV23qkG21S9VvCHJyY5WYx%2BkTQ5R3UIfMxrhnB6nXGlCmu6aPAAKKpxYPeIUZ6wwnMGRBQfWqfGG08%2BSguvnC5maq58vRA0YafqiFhia7wOAU%2B0cp2sdRM%2F3eXg7GuKoLgBaCjjeJRH6Bjbq7rv2gCGfNOruaMVmusyJfIN5Ts7oPKcjkTLfbevm5DxjR8ND5htZ%2FskzPi7kvfnMx%2B2oaovZBSkAnGJn1ryqPSkvoLukzHynpcgEhP38Txisu9PFXgBMYmcuFCqBZqcR1gVGoXJ0o1A5o1GoNGUSC1nrZxIfM1qqrZOEc%2Br5w64cRJkPzt3QeEO2RVofLthsWXAfKS5w%2BUIXoFPPFXZNnYDuIotMMSkDIBBY4UhXRwqUkLifTOKjkngwn0OsnWqz1kVIAKxh93gBq8Nw5WHVThJnOYpapGG2CG8lYIKOWALgCbtaFS2amBVoD45l2pPFMo2x2MAS%2F2VqNrCrWzEmd%2BbFmFw1EZaJdX49lSZ32fhvZgJLtI6pmcCubnEdd8zUOA012ZPDOlowgZmSGG2lUe%2B3eiNFdnRlArcrnjMJYHLTbH5VxI0sAH30sWm58KTKlKTqVSOteki7igqAauidLF%2F0kws8Dy7wVcbuV0JdzPA5EirEdYoE1VEBK76tUZPsK%2FTTnPwrGTkIGqkVXeqMRYU3OJDgASv%2B5OmW5OeNSVvS0bXvPetWOfl3XJMLzbsBwPb1jhOpDmLgNzRmTn1RnbvRczxRTJ97CzhBCqObluBTwiH%2BelqRjy6yJyvCV6cxTijPpUNsTFDaajo58dfrCYzdQ9%2Ft9UatG%2FVjEX%2FXcuDslSZVtfHsQhcADvD6eATtAHf%2BYroQykcuVLUrtzjthphAQxYAvqxgAOgBWRPvAnmDwcybDMxWbUP65p1fOdw59c6vr1tGqdCVuS4qfVOJrZhY582pNNnu6N9bd37lmN7UO79%2BP50RsCabP6gms8uU8pDLvjvzZJ7%2B4MlorPH%2F%3C%2Fdiagram%3E%3C%2Fmxfile%3E)  
+
+- **Adelantos y retrasos:**  
+  - ✓ En este método se representa los posibles adelantos o retrasos entra actividades, se evalua el tipo de actividad y dependiendo de su incertidumbre u otras consideraciones se agregará una adicion numeral al costado de la dependencia que las conecta, esto se puede evidenciar en el mismo documento citado en el punto anterior, aún así se puede ver un visionado rápido de estas en las siguientes imagenes.  
+  **Ejemplo 1:**  
+  ![Retraso 1](/Retraso1.JPG)  
+  **Ejemplo 2:**  
+  ![Retraso 2](/Retraso2.JPG)
+
+  
+## 📤 Salidas
+
+- <span id="diagrama-red-cronograma"><strong>Diagrama de red del cronograma del proyecto</strong></span>    
+  El diagrama de red del cronograma mostrará la sucesión de actividades a lo largo del proyecto de manera gráfica, mostrando la precedencia y si hay adelantes o retrasos; todo esto se puede evidenciar en el siguiente punto [Diagrama de red del cronograma](https://www.canva.com/design/DAGpuQDd47A/irHitPWw4J6r2i0D8aZX7A/edit?utm_content=DAGpuQDd47A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
+---  
+### ESTIMAR LA DURACIÓN DE LAS ACTIVIDADES
+
+## 📥 Entradas
+
+- **Plan para la dirección del proyecto**  
+  - ✓ Plan de gestión del cronograma  
+    El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
+    # 
+  - ✓ Linea base del alcance  
+    ELa línea base del alcance es una colección de documentos que dicatminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance) 
+
+- **Documentos del proyecto**  
+  - ✓ Lista de actividades  
+    El visionado de la lista completa de actividades se puede realizar en el punto [Lista de actividades](#lista-actividades) 
+  - ✓ Atributos de las actividades  
+    Aquí se veran relaciones entre las actividades que pueden ser predecesoras o sucesoras, a la vez que su tipo y más detalles; la lista de estos junto a su actividad correspondiente se puede ver en el punto [Atributos de actividades](#atributos-actividades)  
+  - ✓ Disponibilidad de días y turnos de trabajo  
+    En este documento se evidencia la jornada que tendrá cada miembro del equipo, la jornada completa y las observaciones importantes sobre la disponibilidad del equipo de trabajo; más detalles sobre estos puntos se pueden visualizar en el documento [Documento de disponibilidad del grupo de trabajo](https://drive.google.com/file/d/1vd8Efm2YPN6429diZg2Enx5OqYLlmxZf/view?usp=sharing) 
+
+- **Factores ambientales de la empresa**  
+  La lista de factores ambientales tanto internos como externos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Factores de la empresa](#factores-empresa) 
+
+- **Activos de los procesos de la organización**  
+  La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
+
+## 🛠️ Herramientas y Técnicas
+
+- **Estimación por tres valores (PERT):**  
+  La Estimación por Tres Valores (PERT) es una técnica robusta para actividades con incertidumbre. Para cada actividad, definimos tres estimaciones:  
+    * Optimista (to​): La duración si todo sale excepcionalmente bien  
+    * Más probable (tm​): La duración más realista, considerando los recursos y la experiencia.  
+    * Pesimista (tp​): La duración si ocurren imprevistos o dificultades significativas.  
+  
+  La duración esperada (E) se calcula con la siguiente fórmula:   
+  ![Formula](/Formula.JPG)
+  ESe realizaron las estimaciones para cada actividad, con su duración optimista, más probable, pesimista y la duración esperada calculada; las duraciones respectivas se expresan en horas (h) o días (d), asumiendo una jornada laboral estándar (8 horas/día); todo esta realización se puede visualizar en el documento llamado [PERT](https://drive.google.com/file/d/1rBw1vY3zuNTpO8K451QDrTHYl6RVybW6/view?usp=sharing)  
+
+- **Estimación Ascendente (Bottom-Up Estimating):**  
+  La estimación ascendente es la técnica más detallada y precisa, ya que construye la duración total del proyecto a partir de las estimaciones de sus componentes más pequeños.  
+    1. Estimación de actividades individuales:  
+    Ya hemos realizado esto con la estimación por tres valores para cada una de las 42 actividades (A-01 a A-42).
+    2. Suma de duraciones por Paquete de Trabajo (EDT):  
+    Se calcula la duración total de cada EDT sumando las duraciones esperadas (E) de sus actividades constituyentes; esto se puede ver en el documento [Suma de duraciones](https://drive.google.com/file/d/1Qz6i8nQYXTG9w1IAPeTay_gnp2lBhlcX/view?usp=sharing)  
+    3. Suma de las duraciones de los Paquetes de Trabajo para la duración total del proyecto:  
+    83.34h + 68.33h + 182h + 67.33h + 147.33h + 48.33h = 596.66 horas  
+    Duración Total Estimada del Proyecto (aproximada): 596.66 horas / 8 horas/día = 74 días 
+  
+- **Anlálisis de datos:**  
+  - Análisis de reserva
+    * Reserva de contingencia:  
+    Estas son porciones de tiempo adicionales que se añaden a las actividades o paquetes de trabajo específicos, se utilizan para mitigar los riesgos conocidos/desconocidos, es decir, aquellos riesgos que hemos identificado pero cuya ocurrencia o impacto exacto son inciertos.  
+      * En el proyecto esto se puede evidenciar para la actividad A-07 "Integrar ReportLab a script", le podríamos asignar una reserva de contingencia del 10%; esto reconoce la posibilidad de que surjan problemas de compatibilidad inesperados entre ReportLab y el entorno de scripting de la imprenta, algo que es un riesgo conocido en proyectos de integración de software.  
+      #  
+      * Otro caso sería la actividad A-37 "Configurar dispositivos nuevos", una reserva podría cubrir demoras por ajustes finos de compatibilidad con la red existente.  
+    #  
+    * Reserva de gestión:  
+    Estas son porciones de tiempo adicionales que se añaden al cronograma total del proyecto, son controladas por la Dirección del Proyecto y se utilizan para afrontar riesgos desconocidos-desconocidos, aquellos eventos imprevistos que no pudieron ser identificados durante la planificación
+      * Esto dada la naturaleza del proyecto (que abarca desde la seguridad de red hasta la capacitación y la renovación tecnológica) se puede evidenciar si surge un cambio regulatorio inesperado en Perú sobre la protección de datos que requiera una revisión profunda de las políticas de seguridad (EDT 1.3); las reservas de gestión nos darían la flexibilidad para absorber estos impactos mayores y no planificados  
+
+    
+## 📤 Salidas
+
+- <span id="estimacion-duracion"><strong>Estimación de la duración</strong></span>  
+Estas son las duraciones esperadas (E) que hemos calculado para cada una de las 42 actividades de nuestro proyecto de IDS, utilizando principalmente la Estimación por Tres Valores; estas representan el tiempo más probable que cada tarea requerirá para completarse, considerando las incertidumbres inherentes a los proyectos de TI.  
+El listado completo se puede visualizar en la tabla llamada [Estimación de la duración](https://docs.google.com/spreadsheets/d/1q0dMF8MS3vBUt8abMnB0MVWhZRYv_9gkQWC_z0RyeOk/edit?usp=sharing)  
+---  
+ 
+### DESARROLLAR EL CRONOGRAMA
+
+## 📥 Entradas
+
+- **Plan para la dirección del proyecto**  
+  - ✓ Plan de gestión del cronograma  
+    El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
+    # 
+  - ✓ Linea base del alcance  
+    ELa línea base del alcance es una colección de documentos que dicatminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance) 
+
+- **Documentos del proyecto**  
+  - ✓ Diagrama de red del cronograma del proyecto  
+    El diagrama de red en su totalidad, con sus conexiones actividades, detallado de ellas y más se pueden ver en el punto [Diagrama de red del cronograma del proyecto](#diagrama-red-cronograma) 
+  - ✓ Atributos de las actividades  
+    Aquí se veran relaciones entre las actividades que pueden ser predecesoras o sucesoras, a la vez que su tipo y más detalles; la lista de estos junto a su actividad correspondiente se puede ver en el punto [Atributos de actividades](#atributos-actividades)  
+  - ✓ Estimación de la duración  
+    En este apartado veremos cuales son las actividades estimadas, su respectiva estimación y su margen de error; para poder visualizar esto tendremos que ir al punto [Estimación de la duración](#estimacion-duracion) 
+
+- **Factores ambientales de la empresa**  
+  La lista de factores ambientales tanto internos como externos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Factores de la empresa](#factores-empresa) 
+
+- **Activos de los procesos de la organización**  
+  La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
+
+## 🛠️ Herramientas y Técnicas
+
+- **Método de la ruta crítica:**  
+  La ruta crítica o CPM recorrerá las actividades del proyecto que determinan la duración mínima del proyecto, es decir aquellas que no tienen holgura; las que si se retrasan, reatrasarian automáticamente la fecha de finalización del proyecto.  
+  #  
+  Para la realización de este calculo es tener la duración de las actividades en días, esto porque al usar ProjectLibre nos comprometemos a usar la unidad de medida días, lo poderoso de este software, es que al nosotros terminar de introducir los datos de las actividades y sus dependencias, este nos brindará la ruta crítica resaltada en color anaranjado, con las actividades cruciales en este y en la parte de arriba se podrán visualizar las fechas de inicio y término.  
+  ![CPM](/RutaCritica.JPG)  
+  Como vemos, la ruta crítica que nos brinda es la que más se extiende en el proyecto.  
+  Ahora para estar más seguros, se hará una comparativa con las ruta no crítica y la que sí en días de duración y fechas de terminado para ver si esto se está cumpliendo correctamente.  
+  ![Comparativa de rutas](/Comparativa.JPG) 
+
+- **Optimización de recursos:**  
+  Ya realizado el primer método, nos corresponde realializar la optimización de recursos, esta busca equilibrar la disponibilidad de recursos con las fechas del cronograma, obviamente si afectar los objetivos del proyecto; en este caso ya que el equipo es de cinco personas, se tomarán 5 recursos de tipo trabajo (personas) para asignarles cada recurso a su tarea correspondiente, esta asignación y recursos están basados en los atributos de las actividades, salida de procesos anteriores.  
+  Los recursos son los que se ven en la siguiente imagen:  
+  ![Recursos del proyecto](/Recursos.JPG)  
+  Como vemos cada recurso tiene sus siglas de abreviación y un 100% de Unidades Max, esto significa que laboraran sus 8h completas.  
+  El siguiente paso es asignar estos recursos a las actividades ya ingresadas en el ProjectLibre, esto será en la columna Nombres del Recurso:  
+  ![Recursos asignados](/RecursosAsignados.JPG)  
+  Por último ya habiendo asignado todos los recursos a sus respectivas actividades, volveremos a la pestaña de recursos, pero seleccionaremos **Uso de recursos**, lo que se verá en la siguiente imagen es lo que tendremos en este apartado:  
+  ![Uso de recursos](/OptimizacionRecursos.JPG)  
+  A la izquierda tendremos los recursos y actividades a las que están asignados, todas con su carga total en horas; luego a la derecha una grilla por días con cuántas horas están asignadas a cada recurso por jornada.  
+  Para usar la técnica de optimización de recursos tendriamos que tener sobreasignaciones o conflictos de carga, esto se evidencia con resaltados en rojo en ProjectLibre; pero como vemos:
+    1. Cada recurso trabaja dentro de su capacidad diaria (8h estándar)
+    2. No existen conflictos de asignación ni solapamientos
+    3. No fue necesario aplicar técnicas de nivelación ni alisado de recursos, ya que el cronograma actual ya refleja una distribución eficiente  
+  
+  Por ende se concluye que la optimización de recursos se dió de manera natural al asignar correctamente a los recursos en cada actividad que tenemos.
+    
+## 📤 Salidas
+
+- <span id="linea-base-cronograma"><strong>Línea base del cronograma</strong></span>  
+La línea base del cronograma fue registrada a través del diagrama de red generado en ProjectLibre, este se puede seleccionar en en el grupo Task views e ir al gráfico de red, el cual contiene las fechas planificadas de inicio y término de cada actividad, así como sus duraciones correspondientes; nuestra elección fue representarlo en este diagrama ya que expresa lo más importante en su totalidad.  
+El detalle de este se puede visualizar en el documento llamado [Tiempo (Red - Cronograma)](https://drive.google.com/file/d/1Ar92hztPX4CW_8iDV0CsLsWzJSvqKh90/view?usp=sharing)  
+
+- <span id="cronograma-proyecto"><strong>Cronograma del proyecto</strong></span>  
+El cronograma del proyecto final fue elaborado y representado mediante el diagrama de Gantt en ProjectLibre, este incluye todas las tareas planificadas, relaciones lógicas de precedencia, recursos asignados y la ruta crítica definida.  
+Esta vista permite gestionar el tiempo del proyecto, analizar el impacto de cambios y realizar el seguimiento diario; además se activó la visualización de la línea base en el Gantt, permitiendo comparación futura entre lo planificado y lo real.  
+La vista de todo esto se puede realizar en el documento llamado [Cronograma del proyecto](https://drive.google.com/file/d/122zZr5V9s-m740bvlGK2wNLZwvQ-eefG/view?usp=sharing)
 ---
