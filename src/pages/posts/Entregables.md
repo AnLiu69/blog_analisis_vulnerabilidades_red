@@ -409,11 +409,11 @@ order: 6
       * [Reporte detallado](https://www.cepal.org/es/publicaciones/47183-transformacion-digital-mipymes-elementos-diseno-politicas) 
 
     La siguiente comparación se construye tomando como base el análisis de las páginas oficiales y redes sociales de tres imprentas gráficas reales, además de informes técnicos de fuentes como ESET y CEPAL que analizan la realidad de la ciberseguridad en micro y pequeñas empresas de Latinoamérica. Las afirmaciones específicas sobre prácticas como uso de antivirus, ausencia de VLAN o inventarios manuales, fueron inferidas con base en el perfil público y tipo de organización de estas empresas.  
-    **Componenente 1: Fortalecer mecanismos de protección de red**
+    **Componente 1: Fortalecer mecanismos de protección de red**
     ![Comparacion Componente 1](/c1.JPG)  
-    **Componenente 2: Políticas de seguridad informatica**
+    **Componente 2: Políticas de seguridad informatica**
     ![Comparacion Componente 2](/c2.JPG)  
-    **Componenente 3: Equipos actualizados**
+    **Componente 3: Equipos actualizados**
     ![Comparacion Componente 3](/c3.JPG)  
     **Panorama actual frente a otras empresas**
     ![Estado actual y proyeccion de HILMART](/c4.JPG)     
