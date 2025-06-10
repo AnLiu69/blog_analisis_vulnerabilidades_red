@@ -602,7 +602,7 @@ El plan de gestión del cronograma comprende varios puntos importantes, tales co
     El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
     # 
   - ✓ Linea base del alcance  
-    ELa línea base del alcance es una colección de documentos que dicatminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance)  
+    ELa línea base del alcance es una colección de documentos que dictaminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance)  
     
 - **Factores ambientales de la empresa**  
   La lista de factores ambientales tanto internos como externos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Factores de la empresa](#factores-empresa) 
@@ -638,7 +638,7 @@ La descomposición en las actividades se puede visualizar en [Descomposición](h
     El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
     # 
   - ✓ Linea base del alcance  
-    ELa línea base del alcance es una colección de documentos que dicatminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance)  
+    ELa línea base del alcance es una colección de documentos que dictaminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance)  
 
 - **Documentos del proyecto**  
   - ✓ Atributos de la actividad 
@@ -682,7 +682,7 @@ La descomposición en las actividades se puede visualizar en [Descomposición](h
     El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
     # 
   - ✓ Linea base del alcance  
-    ELa línea base del alcance es una colección de documentos que dicatminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance) 
+    ELa línea base del alcance es una colección de documentos que dictaminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance) 
 
 - **Documentos del proyecto**  
   - ✓ Lista de actividades  
@@ -749,7 +749,7 @@ El listado completo se puede visualizar en la tabla llamada [Estimación de la d
     El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
     # 
   - ✓ Linea base del alcance  
-    ELa línea base del alcance es una colección de documentos que dicatminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance) 
+    ELa línea base del alcance es una colección de documentos que dictaminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance) 
 
 - **Documentos del proyecto**  
   - ✓ Diagrama de red del cronograma del proyecto  
