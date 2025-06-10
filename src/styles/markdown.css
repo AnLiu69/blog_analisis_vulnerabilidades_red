@@ -45,6 +45,12 @@ h6 {
   font-size: 1.2rem;
 }
 
+img {
+  display: block;
+  margin: 2rem auto; /* separa de arriba/abajo y centra horizontalmente */
+  max-width: 100%;
+}
+
 /* Body text */
 p, li  {
   line-height: 180%;
