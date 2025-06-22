@@ -507,7 +507,7 @@ order: 6
   - ✓ Documentación de requisitos  
     Los requisitos en un formato ordenado, de manera tabular y ordenados por tipos se pueden ver en el punto [Documentación de requisitos](#documentacion-requisitos)  
   - ✓ Enunciado del alcance  
-    En el enunciado de alcance o del proyecto se desarrolló las exclusiones, criterios de aceptación, etc; todos el de detallado de manera específica se visualiza en el punto [Enunciado del Proyecto](#enunciado-proyecto) 
+    En el enunciado deL alcance o del proyecto se desarrolló las exclusiones, criterios de aceptación, etc; todos el de detallado de manera específica se visualiza en el punto [Enunciado del Proyecto](#enunciado-proyecto) 
 
 - **Factores ambientales de la empresa**  
   La lista de factores ambientales tanto internos como externos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Factores de la empresa](#factores-empresa) 
@@ -803,4 +803,131 @@ El detalle de este se puede visualizar en el documento llamado [Tiempo (Red - Cr
 El cronograma del proyecto final fue elaborado y representado mediante el diagrama de Gantt en ProjectLibre, este incluye todas las tareas planificadas, relaciones lógicas de precedencia, recursos asignados y la ruta crítica definida.  
 Esta vista permite gestionar el tiempo del proyecto, analizar el impacto de cambios y realizar el seguimiento diario; además se activó la visualización de la línea base en el Gantt, permitiendo comparación futura entre lo planificado y lo real.  
 La vista de todo esto se puede realizar en el documento llamado [Cronograma del proyecto](https://drive.google.com/file/d/122zZr5V9s-m740bvlGK2wNLZwvQ-eefG/view?usp=sharing)
----
+---  
+--- 
+## GESTIÓN DE LOS COSTOS DEL PROYECTO
+### PLANIFICAR LA GESTIÓN DE LOS COSTOS
+
+## 📥 Entradas
+
+- **Plan para la dirección del proyecto:**
+    - ✓ Plan de Gestión del cronograma  
+    El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma)  
+    # 
+    - ✓ EDT  
+    La Estructura de Desglose de Trabajo (EDT) y el Diccionario EDT se visualizan en el siguiente enlace [Conjunto EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
+    #   
+    - ✓ Cronograma del proyecto 
+    La visualización del cronograma, descripción de que incluye y para que sirve se puede visualizar en el punto  [Cronograma del proyecto](#cronograma-proyecto)  
+
+- **Factores ambientales de la empresa**  
+  La lista de factores ambientales tanto internos como externos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Factores de la empresa](#factores-empresa) 
+
+- **Activos de los procesos de la organización**  
+  La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
+
+## 🛠️ Herramientas y Técnicas
+
+- **Análisis de datos:**
+  - ✓ SUBPUNTO 1
+    * PURO LOREM 
+    * PURO LOREM  
+    * PURO LOREM 
+  # 
+  - ✓ SUBPUNTO 2
+    * PURO LOREM  
+    * PURO LOREM 
+    * PURO LOREM  
+    * PURO LOREM 
+    * PURO LOREM 
+      
+
+## 📤 Salidas
+
+- <span id="gestion-costos"><strong>Plan de gestión de los costos</strong></span>  
+El plan de gestión de los costos TIENE UNA DESCRIPCIÓN QUE VA AQUÍ
+[ENLACE QUE LLEVARÁ A UNA PARTE](https://drive.google.com/file/d/1RT7FXNLoZkGi3VZPWeR3de5lhTM-1tar/view?usp=drive_link)
+  
+---  
+### ESTIMAR COSTOS
+
+## 📥 Entradas
+
+- **Plan para la dirección del proyecto**  
+  - ✓ Enunciado del alcance del proyecto
+    En el enunciado del alcance o del proyecto se desarrolló las exclusiones, criterios de aceptación, etc; todos el de detallado de manera específica se visualiza en el punto [Enunciado del Proyecto](#enunciado-proyecto) 
+    # 
+  - ✓ EDT 
+    La Estructura de Desglose de Trabajo (EDT), organización y descripción de cada nivel se visualizan en el siguiente enlace [EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
+    #  
+  - ✓ Diccionario EDT 
+    El Diccionario EDT, sus items y descripción se visualizan en el siguiente enlace [Diccionario EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
+
+- **Documentos del proyecto**  
+  - ✓ Requisitos de recursos  
+    EXPLICACIÓN DE ESTOS (BASARSE EN LA DOCUMENTACION  DE REQUISITOS, Y VER SI SE PUEDE USAR PARA ESTE PASO DANDOLE OTRO ENFOQUE)
+  - ✓ Requisitos de riesgos
+    EXPLICACIÓN DE ESTOS (BASARSE EN LA DOCUMENTACION  DE REQUISITOS, Y VER SI SE PUEDE USAR PARA ESTE PASO DANDOLE OTRO ENFOQUE)
+    
+- **Factores ambientales de la empresa**  
+  La lista de factores ambientales tanto internos como externos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Factores de la empresa](#factores-empresa) 
+
+- **Activos de los procesos de la organización**  
+  La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
+
+## 🛠️ Herramientas y Técnicas
+
+- **Estimación Basadas en tres valores:**  
+  LA EXPLICACIÓN DEL PUNTO REAL PERO ORIENTADO A LOS COSTOS
+
+- **Estimación Ascendente (Bottom-Up Estimating):**  
+  LA EXPLICACIÓN DEL PUNTO REAL PERO ORIENTADO A LOS COSTOS
+  
+- **Estimación Análoga:**  
+  LA EXPLICACIÓN DEL PUNTO REAL PERO ORIENTADO A LOS COSTOS (servirá más como información de referencia para reajustar costos ya estimados a entornos más reales) 
+   
+## 📤 Salidas
+
+- <span id="estimacion-costos"><strong>Estimación de costos</strong></span>  
+  La estimación de costos TIENE UNA DESCRIPCIÓN QUE VA AQUÍ
+- <span id="base-estimaciones"><strong>Base de las estimaciones</strong></span>  
+  La base de las estimaciones TIENE UNA DESCRIPCIÓN QUE VA AQUÍ
+---  
+### DETERMINAR PRESUPUESTO
+
+## 📥 Entradas
+
+- **Plan para la dirección del proyecto**  
+  - ✓ Enunciado del alcance del proyecto
+    En el enunciado del alcance o del proyecto se desarrolló las exclusiones, criterios de aceptación, etc; todos el de detallado de manera específica se visualiza en el punto [Enunciado del Proyecto](#enunciado-proyecto) 
+    # 
+  - ✓ EDT 
+    La Estructura de Desglose de Trabajo (EDT), organización y descripción de cada nivel se visualizan en el siguiente enlace [EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
+    #  
+  - ✓ Diccionario EDT 
+    El Diccionario EDT, sus items y descripción se visualizan en el siguiente enlace [Diccionario EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)   
+
+- **Documentos del proyecto**  
+  - ✓ Estimacion de costos
+    La estimación de costos TIENE UNA DESCRIPCION QUE VA AQUÍ  [Estimacion de Costos](#estimacion-costos)  
+  - ✓ Cronograma del proyecto 
+    La visualización del cronograma, descripción de que incluye y para que sirve se puede visualizar en el punto  [Cronograma del proyecto](#cronograma-proyecto)  
+
+- **Factores ambientales de la empresa**  
+  La lista de factores ambientales tanto internos como externos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Factores de la empresa](#factores-empresa) 
+
+- **Activos de los procesos de la organización**  
+  La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
+
+## 🛠️ Herramientas y Técnicas
+
+- **Análisis de datos:**  
+  - ✓ En este punto se describirá las reservas para gestion, contingencias, etc; basados en datos de la empresa o de otras empresas relacionadas (más que nada para sustentar porque le agregaremos contos de contingencia o demás cosas, si se sustenta con otra info excelente (EJEMPLO: historico de duracion de una pc para asi poder sustentar la contingencia))
+  
+## 📤 Salidas
+
+- <span id="linea-base-costos"><strong>Línea base de los costos</strong></span>    
+  La línea base de los costos TIENE UNA DESCRIPCIÓN QUE VA AQUÍ 
+- <span id="requisitos-financiamiento"><strong>Requisitos de financiamiento</strong></span>    
+  Los requisitos de financiamiento TIENEN UNA DESCRIPCIÓN QUE VA AQUÍ
+---  
