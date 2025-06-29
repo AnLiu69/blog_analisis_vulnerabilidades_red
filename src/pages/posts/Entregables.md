@@ -817,7 +817,7 @@ La vista de todo esto se puede realizar en el documento llamado [Cronograma del 
     - ✓ EDT  
     La Estructura de Desglose de Trabajo (EDT) y el Diccionario EDT se visualizan en el siguiente enlace [Conjunto EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
     #   
-    - ✓ Cronograma del proyecto 
+    - ✓ Cronograma del proyecto  
     La visualización del cronograma, descripción de que incluye y para que sirve se puede visualizar en el punto  [Cronograma del proyecto](#cronograma-proyecto)  
 
 - **Factores ambientales de la empresa**  
@@ -828,25 +828,43 @@ La vista de todo esto se puede realizar en el documento llamado [Cronograma del 
 
 ## 🛠️ Herramientas y Técnicas
 
-- **Análisis de datos:**
-  - ✓ SUBPUNTO 1
-    * PURO LOREM 
-    * PURO LOREM  
-    * PURO LOREM 
-  # 
-  - ✓ SUBPUNTO 2
-    * PURO LOREM  
-    * PURO LOREM 
-    * PURO LOREM  
-    * PURO LOREM 
-    * PURO LOREM 
-      
+- **Análisis de datos:**  
+El análisis de alternativas puede incluir opciones como autofinanciamiento, financiamiento mediante deuda o acciones, así como decisiones sobre adquisición de recursos (comprar, arrendar o construir)
+  * Cálculo del Valor Presente de los Flujos de Caja: 
+  ![Calculo de VPN](/calculoVPN.JPG)  
+  **C1, C2, Cn**:  
+  Son los flujos que el proyecto generará cada año, estos pueden ser:  
+  Ingresos esperados (si es un proyecto que genera ventas o rentabilidad)  
+  Ahorros de costos (si es un proyecto de mejora interna, como seguridad, automatización, etc)  
+  Beneficios económicos indirectos  
+  **VP1, VP2, VPn**:  
+  Son esos flujos traídos al valor actual, es decir, cuánto valen hoy considerando la tasa de descuento  
+  **Fórmula general del VPN**:  
+  ![Formula VPN](/formuVPN.JPG)  
+  Esto se explica  
+    * A: Es la inversión inicial, el signo negativo (-A) representa que es una salida de dinero al inicio del proyecto (año 0).  
+    Es decir, el dinero que tú o la empresa deben desembolsar antes de recibir cualquier beneficio futuro  
+    * i: Tasa de descuento (%)  
+    * n: Años del horizonte del proyecto 
+  **Ejemplo de Análisis de alternativas (VPN)**:  
+  ![Ejemplo VPN](/ejemploVPN.JPG)  
+  Donde:
+    * A = S/. 4306.80 (Inversión inicial) 
+    * i = 3% (tasa de descuento) 
+    * n = 5 años (horizonte del proyecto)  
+  
+  **Sustituyendo valores de ejemplo**:  
+    * VPN = −4306.80 + (1067.96 + 1085.21 + 1098.24 + 1107.07 + 1111.71)
+    * VPN = −4306.80 + 5460.19
+    * VPN = 1153.39  
+
+Como el VPN es positivo (S/ 1153.39), el proyecto es económicamente viable.
 
 ## 📤 Salidas
 
 - <span id="gestion-costos"><strong>Plan de gestión de los costos</strong></span>  
-El plan de gestión de los costos TIENE UNA DESCRIPCIÓN QUE VA AQUÍ
-[ENLACE QUE LLEVARÁ A UNA PARTE](https://drive.google.com/file/d/1RT7FXNLoZkGi3VZPWeR3de5lhTM-1tar/view?usp=drive_link)
+El plan de gestión de los costos donde se muestran los lineamientos para tratar estos se pueden ver en la siguiente imagen:  
+![Plan de gestión de costos](/planGestionCostos.JPG) 
   
 ---  
 ### ESTIMAR COSTOS
@@ -860,8 +878,8 @@ El plan de gestión de los costos TIENE UNA DESCRIPCIÓN QUE VA AQUÍ
   - ✓ EDT 
     La Estructura de Desglose de Trabajo (EDT), organización y descripción de cada nivel se visualizan en el siguiente enlace [EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
     #  
-  - ✓ Diccionario EDT 
-    El Diccionario EDT, sus items y descripción se visualizan en el siguiente enlace [Diccionario EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
+  - ✓ Diccionario EDT  
+  El Diccionario EDT, sus items y descripción se visualizan en el siguiente enlace [Diccionario EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
 
 - **Documentos del proyecto**  
   - ✓ Requisitos de recursos  
@@ -898,20 +916,20 @@ El plan de gestión de los costos TIENE UNA DESCRIPCIÓN QUE VA AQUÍ
 ## 📥 Entradas
 
 - **Plan para la dirección del proyecto**  
-  - ✓ Enunciado del alcance del proyecto
-    En el enunciado del alcance o del proyecto se desarrolló las exclusiones, criterios de aceptación, etc; todos el de detallado de manera específica se visualiza en el punto [Enunciado del Proyecto](#enunciado-proyecto) 
+  - ✓ Enunciado del alcance del proyecto  
+  En el enunciado del alcance o del proyecto se desarrolló las exclusiones, criterios de aceptación, etc; todos el de detallado de manera específica se visualiza en el punto [Enunciado del Proyecto](#enunciado-proyecto) 
     # 
-  - ✓ EDT 
-    La Estructura de Desglose de Trabajo (EDT), organización y descripción de cada nivel se visualizan en el siguiente enlace [EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
+  - ✓ EDT  
+  La Estructura de Desglose de Trabajo (EDT), organización y descripción de cada nivel se visualizan en el siguiente enlace [EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
     #  
-  - ✓ Diccionario EDT 
-    El Diccionario EDT, sus items y descripción se visualizan en el siguiente enlace [Diccionario EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)   
+  - ✓ Diccionario EDT  
+  El Diccionario EDT, sus items y descripción se visualizan en el siguiente enlace [Diccionario EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)   
 
 - **Documentos del proyecto**  
-  - ✓ Estimacion de costos
-    La estimación de costos TIENE UNA DESCRIPCION QUE VA AQUÍ  [Estimacion de Costos](#estimacion-costos)  
-  - ✓ Cronograma del proyecto 
-    La visualización del cronograma, descripción de que incluye y para que sirve se puede visualizar en el punto  [Cronograma del proyecto](#cronograma-proyecto)  
+  - ✓ Estimacion de costos  
+  La estimación de costos, su detallado y el desglose entre los costes humanos y no humanos se pueden ver en el punto [Estimacion de Costos](#estimacion-costos)  
+  - ✓ Cronograma del proyecto  
+  La visualización del cronograma, descripción de que incluye y para que sirve se puede visualizar en el punto  [Cronograma del proyecto](#cronograma-proyecto)  
 
 - **Factores ambientales de la empresa**  
   La lista de factores ambientales tanto internos como externos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Factores de la empresa](#factores-empresa) 
@@ -927,7 +945,35 @@ El plan de gestión de los costos TIENE UNA DESCRIPCIÓN QUE VA AQUÍ
 ## 📤 Salidas
 
 - <span id="linea-base-costos"><strong>Línea base de los costos</strong></span>    
-  La línea base de los costos TIENE UNA DESCRIPCIÓN QUE VA AQUÍ 
+  La línea base de los costos es el valor autorizado oficialmente para medir el rendimiento del proyecto y controlar los costos. 
+  Línea base del proyecto = S/.14,105.08  
+  Compuesta por:  
+  * **Costo humano estimado**: S/.14,016.75  
+  * **Costo no humano**: S/.88.33  
+
+  Esta cifra no incluye reservas, por lo que sirve como punto de comparación contra los costos reales.  
+  ![Linea base de los costos](/graficoLineaCostos.JPG) 
 - <span id="requisitos-financiamiento"><strong>Requisitos de financiamiento</strong></span>    
-  Los requisitos de financiamiento TIENEN UNA DESCRIPCIÓN QUE VA AQUÍ
+  Los requisitos de financiamiento representan cuándo y cuánto dinero se necesita a lo largo del tiempo para mantener el flujo de caja del proyecto.  
+  Se requiere un flujo de caja acumulativo progresivo que cubra los siguientes tramos:  
+  * Hasta día 10 → S/.2,183.50 (EDT 1.1)  
+  * Hasta día 18 → S/.3,891.75 (suma de EDT 1.1 + 1.2)  
+  * Hasta día 35 → S/.8,441.75  
+  * Hasta día 42 → S/.10,125.00  
+  * Hasta día 59 → S/.13,808.25  
+  * Hasta día 65 → S/.14,105.08  
+
+  La diferencia entre el **flujo de caja esperado** y la **línea base** se puede ver en la siguiente imagen.  
+  ![Flujo vs Linea](/graficoVersus.JPG)  
+- <span id="actualizaciones-documentos"><strong>Actualizaciones a los documentos del proyecto</strong></span>    
+  En este punto se documenta todo lo que se ajusta en función del presupuesto definido.  
+  Documentos actualizados: 
+  * EDT con horas Ce y costo por actividad.
+  * Tabla comparativa duración – costo por entregable.
+  * Reserva de gestión: S/.1,401.68 (10%).
+  * Reserva de contingencia: S/.700.84 (5%).  
+  * Presupuesto total con reservas: S/.16,207.60.
+  * Observación de excedente sobre el límite de S/.15,000.  
+  * Recomendación formal: usar línea base como presupuesto oficial, o revisar alcance para reducir costos.  
+  ![Grafico de estado de documentos](/docuActualizados.JPG)   
 ---  
