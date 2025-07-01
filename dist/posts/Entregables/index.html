@@ -417,7 +417,7 @@ Código, nombre, descripción, entregable asociado, y responsable designado.</li
 </ul>
 <h1 id="-23"></h1>
 <ul>
-<li><strong>Plan de gestión de requisitos</strong><br>
+<li><span id="gestion-requisitos"><strong>Plan de gestión de requisitos</strong></span><br>
 En el plan de gestión de requisitos detallaremos la metodología, técnicas, responsables y cronograma mediante los cuales se va a identificar, recolectar y documentar los requisitos del sistema IDS, considerando la realidad operativa, organizativa y técnica de HILMART.<br>
 <img src="/planRequi.JPG" alt="Metodología a seguir"><br>
 Los requisitos estarán alineados al árbol de objetivos y medios definidos.<br>
@@ -1201,10 +1201,23 @@ El Diccionario EDT, sus items y descripción se visualizan en el siguiente enlac
 <li>
 <p><strong>Documentos del proyecto</strong></p>
 <ul>
-<li>✓ Requisitos de recursos<br>
-EXPLICACIÓN DE ESTOS (BASARSE EN LA DOCUMENTACION  DE REQUISITOS, Y VER SI SE PUEDE USAR PARA ESTE PASO DANDOLE OTRO ENFOQUE)</li>
-<li>✓ Requisitos de riesgos
-EXPLICACIÓN DE ESTOS (BASARSE EN LA DOCUMENTACION  DE REQUISITOS, Y VER SI SE PUEDE USAR PARA ESTE PASO DANDOLE OTRO ENFOQUE)</li>
+<li>
+<p>✓ Requisitos de recursos<br>
+Los requisitos surgen directamente de la Documentación de Requisitos, en especial:</p>
+<ul>
+<li>Requisitos de Negocio como RN-01 (escaneo automatizado), RN-06 (política ISO), RN-07 (capacitación), RN-11 (actualización de equipos), etc.</li>
+<li>Requisitos del Proyecto como RP-02 (presupuesto ≤ S/.15,000) y RP-03 (uso de software open source).</li>
+<li>Requisitos de la Solución como RS-01 (uso de Nmap, Snort), RS-02 (reportes PDF).</li>
+<li>Requisitos de Transición como RT-01 (inducción previa) y RT-03 (soporte post-implementación).<br>
+Apartir de estos requisitos se obtiene la siguiente tabla:<br>
+<img src="/requisitosRecursos.JPG" alt="Requisitos de recursos"></li>
+</ul>
+</li>
+<li>
+<p>✓ Requisitos de riesgos<br>
+Desde el registro de riesgos documentado, extraemos los factores que pueden impactar directamente en los costos.<br>
+<img src="/requisitosRiesgos.JPG" alt="Requisitos de riesgos"></p>
+</li>
 </ul>
 </li>
 <li>
@@ -1218,25 +1231,65 @@ La lista de activos, su detallado más a fondo y la importancia en la organizaci
 </ul>
 <h2 id="️-herramientas-y-técnicas-11">🛠️ Herramientas y Técnicas</h2>
 <ul>
-<li>
-<p><strong>Estimación Basadas en tres valores:</strong><br>
-LA EXPLICACIÓN DEL PUNTO REAL PERO ORIENTADO A LOS COSTOS</p>
+<li><strong>Estimación Basadas en tres valores:</strong>
+<ul>
+<li><strong>Variabilidad real</strong>: Cada actividad tiene incertidumbre (no todas toman el mismo tiempo en todos los escenarios)</li>
+<li><strong>Adaptabilidad</strong>: Perfecta para proyectos con mezcla de tareas técnicas (configuración, scripting, redacción, pruebas)</li>
+<li><strong>Fundamento lógico</strong>: Se calcula las horas por duración esperada (He) y una desviación estándar (SD) a partir de tres estimaciones:
+<ul>
+<li>Ho (Optimista): Horas por duración si todo va bien.</li>
+<li>Hm (Más probable): Horas por duración habitual, la que más probablemente ocurra.</li>
+<li>Hp (Pesimista): Horas de duración por si surgen complicaciones razonables.</li>
+</ul>
 </li>
-<li>
-<p><strong>Estimación Ascendente (Bottom-Up Estimating):</strong><br>
-LA EXPLICACIÓN DEL PUNTO REAL PERO ORIENTADO A LOS COSTOS</p>
+<li><strong>Fórmulas aplicadas</strong>:
+<ul>
+<li>Duración por horas esperadas: He = (Ho + 4×Hm + Hp) / 6</li>
+<li>Desviación estándar: SD = (Hp - Ho) / 6</li>
+<li>Costo por duración esperada: Ce (horas) = He × Costo por hora</li>
+</ul>
 </li>
-<li>
-<p><strong>Estimación Análoga:</strong><br>
-LA EXPLICACIÓN DEL PUNTO REAL PERO ORIENTADO A LOS COSTOS (servirá más como información de referencia para reajustar costos ya estimados a entornos más reales)</p>
+<li><strong>Base del Costo por Hora</strong>:
+<ul>
+<li>Sueldo mínimo en Perú 2025: S/.1130</li>
+<li>Jornada legal: 48 horas por semana → 192 horas mensuales</li>
+<li>Costo neto/hora base: 1130 / 192 ≈ S/.5.89</li>
+<li>Incluyendo gastos patronales, utilidades, etc.: +60% aprox. (fuente: SUNAT y estudios de estructura salarial)
+→ S/.9.42/hora como base técnica mínima</li>
+</ul>
 </li>
 </ul>
+</li>
+</ul>
+<p>Para este proyecto usamos S/.25/hora como tarifa técnica razonable para profesionales TI (consultores, testers, desarrolladores) según rangos del mercado y estándares de proyectos de infraestructura de seguridad en PYMES.<br>
+La estimación se realizó por cada componente y paquete del EDT, esto se puede visualizar en el siguiente archivo <a href="https://docs.google.com/spreadsheets/d/1yzuqrx2YK-Lhs4wWpzQa1rzFwiEKrut5a5nipxsyATA/edit?usp=sharing">Estimación de costos</a></p>
 <h2 id="-salidas-11">📤 Salidas</h2>
 <ul>
-<li><span id="estimacion-costos"><strong>Estimación de costos</strong></span><br>
-La estimación de costos TIENE UNA DESCRIPCIÓN QUE VA AQUÍ</li>
-<li><span id="base-estimaciones"><strong>Base de las estimaciones</strong></span><br>
-La base de las estimaciones TIENE UNA DESCRIPCIÓN QUE VA AQUÍ</li>
+<li>
+<p><span id="estimacion-costos"><strong>Estimación de costos</strong></span><br>
+La estimación de costos total se dividió en dos partes, los costes humanos y los costes no humanos; veamos el detallado de cada uno.</p>
+<ul>
+<li>Estimación de Costos Humanos:<br>
+<img src="/costosHumanos.JPG" alt="Costos Humanos"><br>
+El gasto estimado es S/.14,916.50, bajo el límite de S/.15,000, pero representa el costo humano únicamente.</li>
+<li>Estimación de Costos No Humanos:<br>
+<img src="/costosNoHumanos.JPG" alt="Costos No Humanos"></li>
+</ul>
+<p>Total general del proyecto:</p>
+<ul>
+<li>Costo humano estimado: S/.14,916.50</li>
+<li>Costos no humanos estimados: S/.81.33</li>
+<li>Gran total estimado: S/.14,997.83, aún dentro del presupuesto aprobado.</li>
+</ul>
+</li>
+<li>
+<p><span id="base-estimaciones"><strong>Base de las estimaciones</strong></span><br>
+Con respecto a las bases de las estimaciones, estas nos ayudaron con la siguiente información:</p>
+<ul>
+<li><strong>Tasa técnica S/.25/hora</strong>, basada en sueldo mínimo ajustado (S/.9.42 + margen del 165%), justificado por rangos de consultoría TI en PYMES.</li>
+<li><strong>Costos no humanos</strong> fundamentados en precios locales, licencias en USD, datos de SUNAT y tarifas de electricidad. <a href="https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-196/moneda-196-12.pdf">Referencia</a></li>
+</ul>
+</li>
 </ul>
 <hr>
 <h3 id="determinar-presupuesto">DETERMINAR PRESUPUESTO</h3>
@@ -1277,22 +1330,75 @@ La lista de activos, su detallado más a fondo y la importancia en la organizaci
 </ul>
 <h2 id="️-herramientas-y-técnicas-12">🛠️ Herramientas y Técnicas</h2>
 <ul>
-<li><strong>Análisis de datos:</strong>
+<li>
+<p><strong>Análisis de datos:</strong></p>
 <ul>
-<li>✓ En este punto se describirá las reservas para gestion, contingencias, etc; basados en datos de la empresa o de otras empresas relacionadas (más que nada para sustentar porque le agregaremos contos de contingencia o demás cosas, si se sustenta con otra info excelente (EJEMPLO: historico de duracion de una pc para asi poder sustentar la contingencia))</li>
+<li><strong>Reserva de Gestión - “Imprevistos No Identificados”</strong><br>
+Esta reserva no está vinculada a riesgos identificados, sino a incertidumbres inherentes a todo proyecto.<br>
+Es un monto que se maneja a nivel de dirección o jefatura de proyecto y no está asignado a ninguna actividad específica.<br>
+Esta reserva sirve para las siguientes situaciones:
+<ul>
+<li>Cambios no planificados.</li>
+<li>Alcances menores no previstos.</li>
+<li>Desviaciones operativas fuera del análisis de riesgo inicial.</li>
 </ul>
+</li>
+<li><strong>Reserva de Contingencias — “Riesgos Residuales Identificados”</strong><br>
+Esta reserva está diseñada para riesgos que:
+<ul>
+<li>Fueron identificados, pero no mitigados del todo.</li>
+<li>Tienen probabilidad baja o impacto medio y no justifican acciones preventivas costosas.</li>
+</ul>
+</li>
+</ul>
+<p>Resumen del presupuesto del proyecto:<br>
+<img src="/resumenPresupuesto.JPG" alt="Resumen del presupuesto"><br>
+Presupuesto total del proyecto: 14,997.83 + 1,499.80 + 749.90 = S/.17,247.53<br>
+Ahora veremos porque tenemos estos porcentajes para las reservas de gestión y contingencias:</p>
+<ul>
+<li>
+<p>Se aplica una reserva de gestión del 10% para imprevistos <strong>¿Por qué 10%?</strong><br>
+Es un estándar usado en metodologías del PMI y buenas prácticas internacionales cuando el proyecto tiene un nivel de incertidumbre medio a alto, típico en proyectos de TI, redes, infraestructura y sistemas.<br>
+Project Management Institute (PMI) recomienda entre 5% y 15% según la complejidad y madurez del proyecto.</p>
+</li>
+<li>
+<p>Se agrega una reserva de contingencia del 5% para riesgos residuales <strong>¿Por qué 5%?</strong><br>
+Es un valor calculado sobre la base de riesgos residuales en proyectos de tamaño medio:<br>
+Ejemplo de riesgo: “Demora en disponibilidad de recursos”, “Falla en un componente no crítico”.<br>
+PMBOK recomienda que esta reserva esté en un rango de 3% a 7% dependiendo de:</p>
+<ul>
+<li>Número y severidad de riesgos.</li>
+<li>Grado de mitigación aplicado previamente.</li>
+<li>Contexto del proyecto (entorno, proveedores, estabilidad técnica).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Síntesis real del proyecto</strong>:</p>
+<ul>
+<li>
+<p>Costo estimado sin reservas (línea base):<br>
+S/.14,997.83 (S/.14,916.50 humano + S/.81.33 no humano)</p>
+</li>
+<li>
+<p>Presupuesto total con reservas:<br>
+S/.17,247.53 → Supera el límite aprobado de S/.15,000</p>
+</li>
+</ul>
+<h1 id="-50"></h1>
+<p>Al sumar las reservas para imprevistos y riesgos residuales, el presupuesto total se eleva a S/.17,247.53, lo cual supera el límite aprobado de S/.15,000.<br>
+Este exceso debe ser gestionado estratégicamente.</p>
 </li>
 </ul>
 <h2 id="-salidas-12">📤 Salidas</h2>
 <ul>
 <li>
 <p><span id="linea-base-costos"><strong>Línea base de los costos</strong></span><br>
-La línea base de los costos es el valor autorizado oficialmente para medir el rendimiento del proyecto y controlar los costos.
-Línea base del proyecto = S/.14,105.08<br>
+La línea base de los costos es el valor autorizado oficialmente para medir el rendimiento del proyecto y controlar los costos.<br>
+Línea base del proyecto = S/.14,997.83<br>
 Compuesta por:</p>
 <ul>
-<li><strong>Costo humano estimado</strong>: S/.14,016.75</li>
-<li><strong>Costo no humano</strong>: S/.88.33</li>
+<li><strong>Costo humano estimado</strong>: S/.14,916.50</li>
+<li><strong>Costo no humano</strong>: S/.81.33</li>
 </ul>
 <p>Esta cifra no incluye reservas, por lo que sirve como punto de comparación contra los costos reales.<br>
 <img src="/graficoLineaCostos.JPG" alt="Linea base de los costos"></p>
@@ -1302,12 +1408,12 @@ Compuesta por:</p>
 Los requisitos de financiamiento representan cuándo y cuánto dinero se necesita a lo largo del tiempo para mantener el flujo de caja del proyecto.<br>
 Se requiere un flujo de caja acumulativo progresivo que cubra los siguientes tramos:</p>
 <ul>
-<li>Hasta día 10 → S/.2,183.50 (EDT 1.1)</li>
-<li>Hasta día 18 → S/.3,891.75 (suma de EDT 1.1 + 1.2)</li>
-<li>Hasta día 35 → S/.8,441.75</li>
-<li>Hasta día 42 → S/.10,125.00</li>
-<li>Hasta día 59 → S/.13,808.25</li>
-<li>Hasta día 65 → S/.14,105.08</li>
+<li>Hasta día 10 → S/.2,083.50 (EDT 1.1)</li>
+<li>Hasta día 18 → S/.3,791.75 (suma de EDT 1.1 + 1.2)</li>
+<li>Hasta día 35 → S/.8,341.75</li>
+<li>Hasta día 42 → S/.10,025.00</li>
+<li>Hasta día 59 → S/.13,708.25</li>
+<li>Hasta día 65 → S/.14,916.50</li>
 </ul>
 <p>La diferencia entre el <strong>flujo de caja esperado</strong> y la <strong>línea base</strong> se puede ver en la siguiente imagen.<br>
 <img src="/graficoVersus.JPG" alt="Flujo vs Linea"></p>
@@ -1319,13 +1425,151 @@ Documentos actualizados:</p>
 <ul>
 <li>EDT con horas Ce y costo por actividad.</li>
 <li>Tabla comparativa duración – costo por entregable.</li>
-<li>Reserva de gestión: S/.1,401.68 (10%).</li>
-<li>Reserva de contingencia: S/.700.84 (5%).</li>
-<li>Presupuesto total con reservas: S/.16,207.60.</li>
+<li>Reserva de gestión: S/.1,499.80 (10%)</li>
+<li>Reserva de contingencia: S/.749.90 (5%)</li>
+<li>Presupuesto total con reservas: S/.17,247.53</li>
 <li>Observación de excedente sobre el límite de S/.15,000.</li>
 <li>Recomendación formal: usar línea base como presupuesto oficial, o revisar alcance para reducir costos.<br>
 <img src="/docuActualizados.JPG" alt="Grafico de estado de documentos"></li>
 </ul>
+</li>
+</ul>
+<hr>
+<h3 id="controlar-el-alcance">CONTROLAR EL ALCANCE</h3>
+<h2 id="-entradas-13">📥 Entradas</h2>
+<ul>
+<li>
+<p><strong>Plan para la dirección del proyecto</strong></p>
+<ul>
+<li>✓ Plan para la gestión del alcance<br>
+El detallado, puntos clave sobre el EDT, y el alcance se detallan en el punto <a href="#gestion-alcance">Plan de gestión de alcance</a>
+<h1 id="-51"></h1>
+</li>
+<li>✓ Plan de gestión de los requisitos<br>
+El detallado, puntos clave sobre la gestión de estos, y la metodología usada se puede ver en el punto <a href="#gestion-requisitos">Plan de gestión de requisitos</a>
+<h1 id="-52"></h1>
+</li>
+<li>✓ Línea base del alcance<br>
+La línea base del alcance es una colección de documentos que dictaminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto <a href="#linea-base-alcance">Línea base del alcance</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Documentos del proyecto</strong></p>
+<ul>
+<li>✓ Estimacion de costos<br>
+La estimación de costos, su detallado y el desglose entre los costes humanos y no humanos se pueden ver en el punto <a href="#estimacion-costos">Estimacion de Costos</a></li>
+<li>✓ Cronograma del proyecto<br>
+La visualización del cronograma, descripción de que incluye y para que sirve se puede visualizar en el punto  <a href="#cronograma-proyecto">Cronograma del proyecto</a></li>
+<li>✓ Diagrama de red del cronograma del proyecto<br>
+El diagrama de red en su totalidad, con sus conexiones actividades, detallado de ellas y más se pueden ver en el punto <a href="#diagrama-red-cronograma">Diagrama de red del cronograma del proyecto</a></li>
+<li>✓ Atributos de las actividades<br>
+Aquí se veran relaciones entre las actividades que pueden ser predecesoras o sucesoras, a la vez que su tipo y más detalles; la lista de estos junto a su actividad correspondiente se puede ver en el punto <a href="#atributos-actividades">Atributos de actividades</a></li>
+<li>✓ Estimación de la duración<br>
+En este apartado veremos cuales son las actividades estimadas, su respectiva estimación y su margen de error; para poder visualizar esto tendremos que ir al punto <a href="#estimacion-duracion">Estimación de la duración</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Datos de desempeño del trabajo</strong><br>
+Constituyen una entrada fundamental para diversos procesos de monitoreo y control en la Dirección de Proyectos, de acuerdo con el PMBOK.<br>
+Representan las observaciones y mediciones brutas recopiladas durante la ejecución de las actividades del proyecto, sin haber sido analizadas o interpretadas aún.<br>
+La siguiente información detalla el estado actual del proyecto “Implementación de un IDS para la red local de una imprenta gráfica” hasta la fecha de reporte:<br>
+<strong>Situación general del proyecto (Día 32 de ejecución)</strong></p>
+<ul>
+<li>Tiempo Transcurrido: 32 días (de 65 días planificados).</li>
+<li>Costo Ejecutado (AC - Actual Cost): S/. 6,996.39</li>
+<li>Costo Planificado (PV - Planned Value): S/. 14,916.50</li>
+<li>Avance Físico Estimado Real: 47.5%</li>
+<li>Índice de Desempeño del Cronograma (SPI): 0.95</li>
+<li>Índice de Desempeño del Costo (CPI): 1.01</li>
+</ul>
+</li>
+</ul>
+<p>Como se ve esto es un resumen general de los datos conforme el avance del proyecto, pero también se puede visualizar como granularmente cada componente aumento su grado de completitud y costeo; esto se ve en el siguiente documento  <a href="https://drive.google.com/file/d/1hVlDJ_79PgJlUNWIG-oHdW0X0RQ1l8DZ/view?usp=sharing">Estado por componente EDT</a><br>
+<img src="/resumenTabulado.JPG" alt="Tabulacion de estado"></p>
+<ul>
+<li><strong>Activos de los procesos de la organización</strong><br>
+La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto <a href="#activos-empresa">Activos de la organización</a></li>
+</ul>
+<h2 id="️-herramientas-y-técnicas-13">🛠️ Herramientas y Técnicas</h2>
+<ul>
+<li>
+<p><strong>Métricas de Desempeño Clave (EVMS - Gestión del Valor Ganado):</strong><br>
+La Gestión del Valor Ganado (EVM) es una metodología integrada de desempeño del proyecto que combina mediciones de alcance, cronograma y costos para evaluar el progreso y rendimiento del proyecto.</p>
+<ul>
+<li><strong>Índice de Desempeño del Cronograma (SPI)</strong>
+<ul>
+<li>Fórmula: SPI = EV/PV</li>
+<li>Cálculo: SPI = 283.5/298.3 ≈ 0.95</li>
+<li>Interpretación: Un SPI de 0.95 indica que el proyecto está avanzando a un ritmo ligeramente inferior al planificado. Por cada sol de trabajo que se debería haber completado según el cronograma, solo se ha logrado 0.95 soles de valor ganado. Esto sugiere un ligero retraso en el progreso temporal del proyecto, requiriendo atención en la optimización de tareas futuras.</li>
+</ul>
+</li>
+<li><strong>Índice de Desempeño del Costo (CPI)</strong>
+<ul>
+<li>Fórmula: CPI = EV/AC</li>
+<li>Cálculo: CPI = 283.5/276.9 ≈ 1.02</li>
+<li>Interpretación: Un CPI de 1.02 indica que el proyecto está utilizando los recursos de manera más eficiente de lo esperado. Por cada sol gastado, se está obteniendo 1.02 soles de valor ganado. Esto es una señal positiva de control financiero, ya que el proyecto está generando más valor por el costo incurrido de lo que se había presupuestado.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Análisis de datos:</strong><br>
+La recopilación sistemática de Datos de Desempeño del Trabajo y su posterior análisis son fundamentales para el monitoreo del proyecto. Estas son las herramientas y sistemas utilizados para dicho fin.</p>
+<ul>
+<li>
+<p>Análisis del Valor Ganado (EVA):<br>
+Aplicación de las métricas SPI y CPI mencionadas anteriormente para evaluar el rendimiento general del proyecto en términos de cronograma y costo.</p>
+</li>
+<li>
+<p>Análisis de Tendencias:<br>
+Examen del desempeño del proyecto a lo largo del tiempo para determinar si el rendimiento está mejorando o deteriorándose. Esto incluye el monitoreo de los SPI y CPI en periodos sucesivos.</p>
+</li>
+<li>
+<p>Análisis de Variación:<br>
+Comparación del desempeño real del proyecto con el desempeño planificado (líneas base de alcance, cronograma y costo) para determinar si existen desviaciones y su magnitud. Incluye la Variación del Cronograma (SV) y la Variación del Costo (CV).</p>
+</li>
+<li>
+<p>Análisis Causa Raíz:<br>
+Aplicación de técnicas para identificar las causas subyacentes de las desviaciones y problemas de desempeño.</p>
+</li>
+<li>
+<p>Integración y Consolidación de Datos:<br>
+Proceso de combinar datos de diferentes fuentes (JIRA, Excel, bitácora) para generar una visión unificada y coherente del estado del proyecto. Se realiza una integración semanal de datos entre el cronograma, el avance técnico y el presupuesto para asegurar una visión holística.</p>
+</li>
+<li>
+<p>Control Cruzado por EDT y Recurso:<br>
+Técnica de revisión y comparación de los datos de desempeño a nivel de cada componente de la Estructura de Desglose del Trabajo (EDT) y por recurso asignado, permitiendo identificar desviaciones o cuellos de botella específicos.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="-salidas-13">📤 Salidas</h2>
+<ul>
+<li>
+<p><span id="informacion-desempeño-trabajo"><strong>Información de desempeño del trabajo</strong></span><br>
+Esta sección presenta los resultados del análisis de los datos de desempeño del trabajo en contexto, comparándolos con las líneas base del proyecto.<br>
+Esta información procesada es crucial para la toma de decisiones informadas y la identificación de tendencias.<br>
+<strong>Estado General del Proyecto</strong></p>
+<ul>
+<li>A 32 de los 65 días planificados, el proyecto ha consumido el 50% del tiempo. El avance físico real se sitúa en 47.5%, lo que indica que estamos ligeramente por debajo del progreso esperado para este punto. Financieramente, se ha ejecutado un 46.90% del presupuesto total, con S/. 6,996.39 invertidos de S/. 14,916.50 planificados.</li>
+<li>Índice de Desempeño del Cronograma (SPI): 0.95
+<ul>
+<li>Interpretación: El proyecto tiene un ligero retraso. El trabajo completado es menor de lo que debería ser a esta altura según el plan.</li>
+</ul>
+</li>
+<li>Índice de Desempeño del Costo (CPI): 1.01
+<ul>
+<li>Interpretación: El proyecto está siendo eficiente con los costos, gastando un poco menos de lo previsto para el trabajo realizado y generando un valor ligeramente superior al costo incurrido.<br>
+<strong>Análisis del Desempeño por EDT</strong><br>
+<img src="/performanceEDT.JPG" alt="Desempeño EDT"><br>
+También podemos ver distintas métricas de rendiminto para saber más sobre la información del desempeño, estas se pueden ver en el documento <a href="https://drive.google.com/file/d/1sD2vTWOdr92Jm0j60IXv5tqlR8WWMJUU/view?usp=sharing">Métricas clave del rendimiento</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><span id="solicitud-cambio"><strong>Solicitud de cambio</strong></span><br>
+En esta solicitud de cambio se abarcó el riesgo de incompatibilidad de versiones de python previamente instaladas, esta se realizó por el equipo de técnico intentando abarcar inconvenientes que se puedan cruzar a raíz de esto. El detallado de la solicitud se puede ver en el documento <a href="https://drive.google.com/file/d/12mr52TrEf9LoP1UHIwF68Hq6gn63eajx/view?usp=sharing">Solicitud de cambio</a></p>
 </li>
 </ul>
 <hr>  </main> <footer class="container" data-astro-cid-sz7xmlte> <p data-astro-cid-sz7xmlte>&copy All right reserved  @Grupo 1</p> </footer>  </body></html> 
