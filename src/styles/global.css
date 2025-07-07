@@ -194,11 +194,15 @@ p {
 
 @media screen and (max-width: 768px) {
   .post-layout {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr; /* solo una columna */
   }
 
   .post-layout aside {
     order: -1; /* TOC arriba */
     margin-bottom: 1rem;
+    width: auto;           /* ajusta al contenido */
+    max-width: 100%;       /* no más ancho que la pantalla */
+    position: relative;    /* para no superponerse */
   }
 }
