@@ -191,3 +191,14 @@ p {
 .transition-hover-up:hover {
   transform: translateY(-2px);
 }
+
+@media screen and (max-width: 768px) {
+  .post-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .post-layout aside {
+    order: -1; /* TOC arriba */
+    margin-bottom: 1rem;
+  }
+}
