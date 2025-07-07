@@ -4,21 +4,21 @@ title: "Entregables"
 order: 6
 ---
 
-### ANÁLISIS DE LOS INTERESADOS 
+# ANÁLISIS DE LOS INTERESADOS 
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Documentos de negocio:**
     - ✓ Caso de negocio
-    ##
+    <br>
     HILMART Industria Gráfica S.A. es una empresa con amplia trayectoria en el sector de las artes gráficas, ubicada en Villa el Salvador. Se especializa en brindar soluciones integrales de impresión para clientes corporativos, editoriales y organismos públicos.
-    ##
+    <br>
     Servicios que ofrece:
     Impresión offset y digital de alta calidad.
     Prensa y pre prensa
     Corte, doblado y troquelado de precisión.
     Acabados personalizados según requerimientos del cliente.
-    ##
+    <br>
     Enfoque:
     La empresa se destaca por su capacidad de adaptación a las necesidades específicas de cada proyecto, ofreciendo atención personalizada y cumpliendo altos estándares de calidad en cada etapa del proceso productivo.
 
@@ -140,7 +140,7 @@ order: 6
     <br>Existencia de un sistema donde se documentan mejoras o aprendizajes anteriores:  
     No existe alguno 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Recopilación de datos:**
   - ✓ Cuestionarios y encuestas  
@@ -188,42 +188,42 @@ order: 6
     ![Gráfico del cubo](/Cubo.JPG)  
     ![Tabla de interesados clasificados](/TablaInteresados.JPG)  
 
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="registro-interesados"><strong>Registro de interesados</strong></span>
     Gracias al análisis y su correspondiente maapeo anterior, podemos realizar nuestro registro de interesados; el cúal contiene información acerca de estos, tal como indetificación, clasificación y su gestión
     ![Registro de interesados](/RegistroInteresados.JPG)  
 ---
 
-### ANÁLISIS DE PROBLEMAS Y OBJETIVOS
+# ANÁLISIS DE PROBLEMAS Y OBJETIVOS
 
-### ÁRBOL DE PROBLEMAS
+## ÁRBOL DE PROBLEMAS
   Dado un análisis inicial obtuvimos las causas, el problema central y los efectos  
   [Árbol de problemas](https://drive.google.com/file/d/12mN5HIHzTYUwCdnnEIK95A3PwhjA3dhy/view?usp=sharing)
 
-### ÁRBOL DE OBJETIVOS
+## ÁRBOL DE OBJETIVOS
   Dado un análisis del árbol de problemas, pudimos obetener medios, un objetivo principal y diferentes fines que ubicamos en el siguiente árbol  
   [Árbol de objetivos](https://drive.google.com/file/d/1T90BJVDrVBMvvc6eFk6OFwdeB_y3QrnJ/view?usp=sharing)  
 
-### PROPUESTA DE VALOR  
+## PROPUESTA DE VALOR  
   Se hizo un análisis de las carácteristicas de la solución que se ofrece, los potenciadores que tiene para que el cliente sienta que se escucha lo que el necesita, a la vez de tratar las posibles aflicciones del cliente objetivo; dado esto se realizó un Lienzo de propuesta de valor para colocar gráficamente todas estas características del producto y del cliente.  
   [Lienzo de propuesta de valor](https://drive.google.com/file/d/1TrcC51wf8p6k383KAMCwlIWIcZeB2QVr/view?usp=drive_link)
 
-## ANÁLISIS DE ALTERNATIVAS
+# ANÁLISIS DE ALTERNATIVAS
 
-### IDENTIFIACIÓN Y CLASIFICACIÓN DE ACCIONES
+## IDENTIFIACIÓN Y CLASIFICACIÓN DE ACCIONES
   Ya teniendo los medios correspondientes de nuestro arbol de objetivos, los desglosaremos en acciones que nos servirán para alcanzar el medio dado y por consecuencia la situación positiva deseada.  
   Se realizo con una lluvia de ideas en un docmuento compartido la generación de estas acciones, después de tener una buena cantidad de acciones, se limpiaron y quedaron las que podian estar más alineadas a cada medio.  
   Por último se clasificaron las actividades en excluyentes y complementarias pra pasar al siguiente paso.  
   [Lista de acciones](https://drive.google.com/file/d/1bmpBLka0kkIu7cxMzJffMXmYAjFkYC5e/view?usp=drive_link)
 
-### ORGANIZAR LAS ACCIONES IDENTIFICADAS EN PROYECTOS ALTERNATIVOS
+## ORGANIZAR LAS ACCIONES IDENTIFICADAS EN PROYECTOS ALTERNATIVOS
   Teniendo la lista de acciones ya hecha, esta nos servirá para organizarla en un mapa conceptual, en el cual ordenaremos las acciones con su respectivo medio y a la vez las identificaremos con colores y numeración distintiva para saber si son complementarias o excluyentes.  
   Esto nos servirá para poder crear los proyectos alternativos que se generaran en base al ordenamiento anterior.  
   ![Proyectos alternativos](/proyectosA.JPG)  
   [Proyectos alternativos ordenados](https://drive.google.com/file/d/1zMDbq51J5d40oK8cvlysPuroopI_vdjq/view?usp=sharing)  
 
-### EVALUAR LOS PROYECTOS ALTERNATIVOS 
+## EVALUAR LOS PROYECTOS ALTERNATIVOS 
   Por último los proyectos obtenidos en el paso anterior los organizaremos de manera tabular, para identificar a más detalles cuales son las acciones que pertenecen a los pryectos alternativos creados; al tener tabulados estos iniciaremos con la última etapa de este proceso, la evaluación de los proyectos alternativos.  
   Para esto debemos contar con dos puntos importantes, los criterios de evaluación y un método de evaluación, en este caso estos se ven tabulados en la siguiente imagen.  
   ![Criteros de evaluación](/criteriosE.JPG)  
@@ -235,14 +235,14 @@ order: 6
   En nuestro caso será el proyecto número dos, esto debido a su bajo puntaje en la exhaustiva evaluación  
   [Evaluación de proyectos](https://drive.google.com/file/d/1PFfa7Yfz-euht2PCwAkggfAXDTQ_fSa8/view?usp=drive_link)  
 
-### PROTOTIPO DEL PROYECTO  
+## PROTOTIPO DEL PROYECTO  
   En este punto se presentará el prototipo de nuestro proyecto; este se dará como un video atractivo para el cliente, este describe los puntos fuertes a desarrollar y también los beneficios que tendrá la empresa que elija nuestro servicio.  
   [Video promocional](https://drive.google.com/file/d/1dgj6q0qNzRSZo6f4VITVXcTGhesL5yT1/view?usp=drive_link)  
 
-## GESTIÓN DEL ALCANCE DEL PROYECTO  
-### PLANIFICAR LA GESTIÓN DEL ALCANCE
+# GESTIÓN DEL ALCANCE DEL PROYECTO  
+## PLANIFICAR LA GESTIÓN DEL ALCANCE
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan para la dirección del proyecto:**
     - ✓ Descripción de ciclo de vida  
@@ -256,7 +256,7 @@ order: 6
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Reuniones:**
   - ✓ Detalles genereales de la reunión  
@@ -267,7 +267,7 @@ order: 6
     * Asistentes:
       * Oswaldo Jiménez Dulanto – Gerente General
       * Integrantes del equipo técnico de desarrollo  
-  # 
+  <br> 
   - ✓ Plan de ejecución de la reunión  
     * Objetivo de la reunión:  
       Validar el enfoque del proyecto de implementación del IDS y definir los límites, entregables y condiciones del alcance.
@@ -288,7 +288,7 @@ order: 6
       * Compromiso de participación en revisión de entregables   
 
 
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="gestion-alcance"><strong>Plan de gestión de alcance</strong></span> 
   - ✓ Cómo Definir el Alcance 
@@ -303,44 +303,45 @@ order: 6
     3. A partir de estos componentes se listan las acciones específicas como futuros entregables, ya clasificadas en  
         *  Acciones excluyentes (solo se ejecuta una)
         * Acciones complementarias (pueden ejecutarse en conjunto)
-  #
+  <br>
   - ✓ Cómo Crear EDT
     1. Se establece el primer nivel (1):  
       Implementación de un IDS para la red local de una imprenta gráfica  
-
+    <br>
     2. Se agregan de 3 a 6 componentes principales relacionados a los requisitos y al proyecto ganador, como segundo nivel:
         * Ej: 1.1 Protección de la red
         * Ej: 1.2 Equipos actualizados
         * Ej: 1.3 Políticas y cultura de seguridad
-    #
+    <br>
     3. Se descompone cada componente en más componentes o paquetes específicos como tercer nivel, estas siempre deben estar escritas como entregables:
         * Ej: 1.1.1 Auditoría o escaneo
         * Ej: 1.1.2 Segmentación
-    #
+    <br>
     4. Si el componente necesita desglosarse en acciones o tareas respectivas, estas podrian partir desde el nivel 4:
         * Ej: 1.1.1.1 Realizar controles periodicos
         * Ej: 1.1.1.2 Aplicar respuestas activas a los controles  
-    #
+    <br>
     5. Se codifica cada componente con numeración jerárquica, manteniendo coherencia entre niveles  
-    #
+    <br>
     6. Se planifica la elaboración del diccionario EDT, como documento que acompañará y explicará cada componente definido, donde cada uno de ello tendrá:  
       Código, nombre, descripción, entregable asociado, y responsable designado.
-#
+<br>  
+
 - <span id="gestion-requisitos"><strong>Plan de gestión de requisitos</strong></span>  
 En el plan de gestión de requisitos detallaremos la metodología, técnicas, responsables y cronograma mediante los cuales se va a identificar, recolectar y documentar los requisitos del sistema IDS, considerando la realidad operativa, organizativa y técnica de HILMART.  
   ![Metodología a seguir](/planRequi.JPG)  
   Los requisitos estarán alineados al árbol de objetivos y medios definidos.  
   Se cruzará cada necesidad con un entregable específico de la EDT del IDS.  
-  #  
+  <br>  
   El proyecto usará como base lo recolectado de:  
   * Formularios respondidos por stakeholders
   * Prototipo y propuesta de valor
   * Estudios comparativos con otras empresas nacionales e internacionales
   
 ---  
-### RECOPILAR REQUISITOS
+## RECOPILAR REQUISITOS
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan para la dirección del proyecto**  
   - ✓ Plan de involucramiento de los interesados 
@@ -366,7 +367,7 @@ En el plan de gestión de requisitos detallaremos la metodología, técnicas, re
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Recopilación de datos:**
   - ✓ Cuestionarios y encuestas
@@ -386,20 +387,20 @@ En el plan de gestión de requisitos detallaremos la metodología, técnicas, re
       * Pequeña imprenta digital. Enfocada en trabajos urgentes para negocios y oficinas.
       * Con herramientas de seguridad mínimas, pero creciente digitalización.
       * Web: [PrintExpress](https://imprentaenlima.pe/)  
-    #
+    <br>
     * **Graficentro (Ecuador)**  
     ![Graficentro](/graficenr.JPG)
       * Mediana empresa con más de 15 años en el rubro.
       * Ha empezado a implementar protocolos básicos de ciberseguridad e inventario TI.
       * Política de privacidad (sugiere medidas mínimas de protección): [Politica de Privacidad](https://graficentro.net/politicas-de-privacidad/)
       * Web: [Graficentro](https://graficentro.net/)  
-    #
+    <br>
     * **Gráfica El Punto (Lima)**  
     ![Grafica El Punto](/pgsi.JPG)
       * Empresa familiar que presta servicios de impresión offset y digital.
       * Incorporó prácticas de seguridad tras sufrir un incidente por malware en 2021.
       * Web: [Gráfica El Punto](https://puntografico-si.com/)  
-      #
+      <br>
     Estudios y reportes generales:  
     * **ESET Latinoamérica - Reporte Tendencias 2025**
       * Habla de cómo las PYMEs subestiman la ciberseguridad.
@@ -419,7 +420,7 @@ En el plan de gestión de requisitos detallaremos la metodología, técnicas, re
     ![Estado actual y proyeccion de HILMART](/c4.JPG)     
 
 
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="documentacion-requisitos"><strong>Documentación de requisitos</strong></span>  
   Para realizar la documentación de requerimientos, agruparlos de manera correcta y abarcar cada uno de ellos de manera integral, se realizo una documentación que se puede visualizar en el siguiente enlace:  
@@ -428,9 +429,9 @@ En el plan de gestión de requisitos detallaremos la metodología, técnicas, re
   Ya teniendo los requisitos documentados nos serviremos de estos para realizar la matriz de trazabilidad, añadiendole la numeración que tendrá en el EDT, esto obviamente en forma de entregable, el responsable y su prioridad, todo esto se puede visualizar en el siguiente enlace:  
   [Matriz de trazabilidad](https://drive.google.com/file/d/1i-6ctryCvYYjOTDYDlmmSE-91LXt3Ly4/view?usp=sharing) 
 ---  
-### DEFINIR ALCANCE
+## DEFINIR ALCANCE
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan de gestión de alcance**  
   - ✓ Cómo Definir el Alcance  
@@ -450,7 +451,7 @@ En el plan de gestión de requisitos detallaremos la metodología, técnicas, re
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Análisis de Producto:**
   - ✓ Desglose del producto  
@@ -465,7 +466,7 @@ En el plan de gestión de requisitos detallaremos la metodología, técnicas, re
       * El sistema IDS se conectará en entornos Linux.  
       * Herramientas: Nmap, Snort (opcional), Python, ReportLab, smtplib
       * No se integrará con ERP, CRM ni sistemas externos.  
-    #
+    <br>
   - ✓ Análisis de requisitos
     - **Clasificación y organización funcional:**  
     ![Clasificacion Organizacion](/clasi.JPG)  
@@ -475,7 +476,7 @@ En el plan de gestión de requisitos detallaremos la metodología, técnicas, re
     ![Viabilidad Restricciones](/viabilidad.JPG)  
     - **Priorización técnica y estratégica:**  
     ![Priorización técnica](/prio.JPG)
-    #
+    <br>
   - ✓ Ingeniería de Valor
     - **Principios aplicados:**  
       * Priorizar software libre: no se requiere licenciamiento 
@@ -483,19 +484,19 @@ En el plan de gestión de requisitos detallaremos la metodología, técnicas, re
       * Apoyarse en automatización para cubrir la ausencia de personal técnico 
       * Capacitar al personal en funciones críticas únicamente
       * Reutilizar hardware donde sea viable
-    #
+    <br>
   - ✓ Análisis de Valor
     ![Analisis Valor](/analisisvalor.JPG)  
 
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="enunciado-proyecto"><strong>Enunciado del proyecto</strong></span>    
   Teniendo todo lo anterior expresado se podrá realizar el alcance, las exclusiones del proyecto, los criterios de aceptación, las restricciones y los entregables; todo este contenido detallado se podrá visualizar en el siguiente enlace:  
   [Enunciado del Proyecto](https://drive.google.com/file/d/1ptYPtbbWfRK5R3MY4Z4d1ug2QnZ-J2_c/view?usp=sharing)  
 ---  
-### CREAR LA EDT / WBS
+## CREAR LA EDT / WBS
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan de gestión de alcance**  
   - ✓ Cómo Definir el Alcance  
@@ -515,26 +516,26 @@ En el plan de gestión de requisitos detallaremos la metodología, técnicas, re
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Descomposición:**  
   Al usar esta técnica desglosaremos nuestro proyecto en componentes y paquetes más manejables, todos en formato de entregables, esto a excepción de las tareas que serán las acciones que se realizarán para alcanzar un entregable.  
   Este desglose se realizo basandose en los entregables propuestos en el enunciado del proyecto en combinación con la matriz de trazabilidad.  
   Esto se puede visualizar en [Descomposición](https://drive.google.com/file/d/1QTo1N8TR9stiNtWrJztYX9K5d4H3atXe/view?usp=sharing)
     
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="linea-base-alcance"><strong>Linea base del alcance</strong></span>
   La línea base del alcance consta de tres documentos, estos son el Enunciado del alcance del proyecto, la Estructura de Desglose de Trabajo (EDT) y el Diccionario EDT; esta colección de documentos dictaminarán el alcance base del proyecto.  
-  # 
+  <br> 
   El enunciado del proyecto se puede visualizar en el archivo [Enunciado del Proyecto](https://drive.google.com/file/d/1ptYPtbbWfRK5R3MY4Z4d1ug2QnZ-J2_c/view?usp=sharing)  
-  #  
+  <br>  
   La Estructura de Desglose de Trabajo (EDT) y el Diccionario EDT se visualizan en el siguiente enlace [Conjunto EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)
 ---  
-## GESTIÓN DEL CRONOGRAMA DEL PROYECTO
-### PLANIFICAR LA GESTIÓN DEL CRONOGRAMA 
+# GESTIÓN DEL CRONOGRAMA DEL PROYECTO
+## PLANIFICAR LA GESTIÓN DEL CRONOGRAMA 
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan para la dirección del proyecto:**
     - ✓ Plan para la gestión del alcance  
@@ -548,35 +549,35 @@ En el plan de gestión de requisitos detallaremos la metodología, técnicas, re
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Análisis de datos:**
   - ✓ Metodología de Programación 
     * Aplicación al proyecto: Se empleará una metodología híbrida
       * Predictiva (estructurada): Para la planificación del proyecto, creación de la EDT, documentación técnica, cronograma y entregables.  
       * Adaptativa (ágil): Para la implementación y ajustes del IDS, donde pueden surgir variaciones técnicas no previstas.  
-  # 
+  <br> 
   - ✓ Herramientas y técnicas de programación
     * Herramientas:  
       * Project Libre: Base del cronograma por facilidad de uso y disponibilidad  
       * Jira: Para el control de tareas ágiles del IDS  
       * Canva o draw.io: Para visualizar la EDT.
       * Diagrama de Gantt(también en jira): Para planificar actividades con dependencias.  
-  #  
+  <br>  
   - ✓ Enfoques de Estimación
     * Se usarán métodos combinados:  
       * Estimación de tres valores (PERT):  
       Para tareas de implementación práctica donde hay alta incertidumbre (e.g., ajustes en Python y/o scripts en bash) 
       * Estimación ascendente:  
       Es la técnica más detallada y precisa, ya que construye la duración total del proyecto  
-  #  
+  <br>  
   - ✓ Formatos
     * Se crearán los siguientes formatos (no existen aún):  
       * Formato de EDT: con código, nombre, entregable, responsable 
       * Plantilla de cronograma: tareas, duración, inicio/fin, responsable  
       * Formato de avance por semana/sprint.
       * Checklist de entregables.  
-  #  
+  <br>  
   - ✓ Software de Gestión de Proyectos
     * Inicialmente se utilizarán:  
       * ProjectLibre para cronograma principal. 
@@ -586,21 +587,21 @@ En el plan de gestión de requisitos detallaremos la metodología, técnicas, re
       * MS Project
       
 
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="gestion-cronograma"><strong>Plan de gestión del cronograma</strong></span>  
 El plan de gestión del cronograma comprende varios puntos importantes, tales como el modelo de programación, su nivel de exactitud, umbrales de control, etc. Estos puntos son la base para los procesos siguientes y la realización de un cronograma en condiciones; todos estos puntos se detallan de manera formal en el siguiente documento.  
 [Plan de gestión del cronograma](https://drive.google.com/file/d/1RT7FXNLoZkGi3VZPWeR3de5lhTM-1tar/view?usp=drive_link)
   
 ---  
-### DEFINIR ACTIVIDADES
+## DEFINIR ACTIVIDADES
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan para la dirección del proyecto**  
   - ✓ Plan de gestión del cronograma  
     El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
-    # 
+    <br> 
   - ✓ Linea base del alcance  
     ELa línea base del alcance es una colección de documentos que dictaminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance)  
     
@@ -610,7 +611,7 @@ El plan de gestión del cronograma comprende varios puntos importantes, tales co
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Descomposición:**  
 La descomposición se basa en desglosar o dividir los paquetes de trabajo del EDT en actividades que serviran para completar su realización.  
@@ -618,7 +619,7 @@ Partiremos del EDT realizado en procesos anteriores para ubicar paquetes y con e
 El EDT referenciado se puede ver en [EDT](https://drive.google.com/file/d/1QTo1N8TR9stiNtWrJztYX9K5d4H3atXe/view?usp=sharing)  
 La descomposición en las actividades se puede visualizar en [Descomposición](https://lucid.app/lucidchart/6b84265c-e566-4875-85e1-f3fcee6586f3/edit?viewport_loc=-515%2C-1261%2C5065%2C2891%2C0_0&invitationId=inv_6d9801dc-e6b2-4cb6-8039-ae9f2a6a49c1) 
    
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="lista-actividades"><strong>Lista de actividades</strong></span>  
   La lista de actividades se derivan directamente del EDT, los paquetes están descompuestos a nivel accionable para su ingreso futuro en JIRA como issues/subtareas; la lista completa de estas se puede visualizar en 
@@ -629,14 +630,14 @@ La descomposición en las actividades se puede visualizar en [Descomposición](h
   La lista de hitos no es más que momentos de entrega que marcarán el progreso del proyecto en el cronograma.  
   ![Lista de hitos](/ListaHitos.JPG)
 ---  
-### SECUENCIAR ACTIVIDADES
+## SECUENCIAR ACTIVIDADES
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan para la dirección del proyecto**  
   - ✓ Plan de gestión del cronograma  
     El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
-    # 
+    <br> 
   - ✓ Linea base del alcance  
     ELa línea base del alcance es una colección de documentos que dictaminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance)  
 
@@ -654,7 +655,7 @@ La descomposición en las actividades se puede visualizar en [Descomposición](h
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Método de diagramación por precedencia (PDM):**  
   - ✓ En este método se representa las actividades en nodos, estas están conectadas entre sí por una o más relaciones lógicas; pero lo más importante son las dependencias que pueden presentar, estas pueden ser FS, SS, FF o SF.  
@@ -668,19 +669,19 @@ La descomposición en las actividades se puede visualizar en [Descomposición](h
   ![Retraso 2](/Retraso2.JPG)
 
   
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="diagrama-red-cronograma"><strong>Diagrama de red del cronograma del proyecto</strong></span>    
   El diagrama de red del cronograma mostrará la sucesión de actividades a lo largo del proyecto de manera gráfica, mostrando la precedencia y si hay adelantes o retrasos; todo esto se puede evidenciar en el siguiente punto [Diagrama de red del cronograma](https://www.canva.com/design/DAGpuQDd47A/irHitPWw4J6r2i0D8aZX7A/edit?utm_content=DAGpuQDd47A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
 ---  
-### ESTIMAR LA DURACIÓN DE LAS ACTIVIDADES
+## ESTIMAR LA DURACIÓN DE LAS ACTIVIDADES
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan para la dirección del proyecto**  
   - ✓ Plan de gestión del cronograma  
     El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
-    # 
+    <br> 
   - ✓ Linea base del alcance  
     ELa línea base del alcance es una colección de documentos que dictaminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance) 
 
@@ -698,7 +699,7 @@ La descomposición en las actividades se puede visualizar en [Descomposición](h
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Estimación por tres valores (PERT):**  
   La Estimación por Tres Valores (PERT) es una técnica robusta para actividades con incertidumbre. Para cada actividad, definimos tres estimaciones:  
@@ -725,29 +726,29 @@ La descomposición en las actividades se puede visualizar en [Descomposición](h
     * Reserva de contingencia:  
     Estas son porciones de tiempo adicionales que se añaden a las actividades o paquetes de trabajo específicos, se utilizan para mitigar los riesgos conocidos/desconocidos, es decir, aquellos riesgos que hemos identificado pero cuya ocurrencia o impacto exacto son inciertos.  
       * En el proyecto esto se puede evidenciar para la actividad A-07 "Integrar ReportLab a script", le podríamos asignar una reserva de contingencia del 10%; esto reconoce la posibilidad de que surjan problemas de compatibilidad inesperados entre ReportLab y el entorno de scripting de la imprenta, algo que es un riesgo conocido en proyectos de integración de software.  
-      #  
+      <br>  
       * Otro caso sería la actividad A-37 "Configurar dispositivos nuevos", una reserva podría cubrir demoras por ajustes finos de compatibilidad con la red existente.  
-    #  
+    <br>  
     * Reserva de gestión:  
     Estas son porciones de tiempo adicionales que se añaden al cronograma total del proyecto, son controladas por la Dirección del Proyecto y se utilizan para afrontar riesgos desconocidos-desconocidos, aquellos eventos imprevistos que no pudieron ser identificados durante la planificación
       * Esto dada la naturaleza del proyecto (que abarca desde la seguridad de red hasta la capacitación y la renovación tecnológica) se puede evidenciar si surge un cambio regulatorio inesperado en Perú sobre la protección de datos que requiera una revisión profunda de las políticas de seguridad (EDT 1.3); las reservas de gestión nos darían la flexibilidad para absorber estos impactos mayores y no planificados  
 
     
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="estimacion-duracion"><strong>Estimación de la duración</strong></span>  
 Estas son las duraciones esperadas (E) que hemos calculado para cada una de las 42 actividades de nuestro proyecto de IDS, utilizando principalmente la Estimación por Tres Valores; estas representan el tiempo más probable que cada tarea requerirá para completarse, considerando las incertidumbres inherentes a los proyectos de TI.  
 El listado completo se puede visualizar en la tabla llamada [Estimación de la duración](https://docs.google.com/spreadsheets/d/1q0dMF8MS3vBUt8abMnB0MVWhZRYv_9gkQWC_z0RyeOk/edit?usp=sharing)  
 ---  
  
-### DESARROLLAR EL CRONOGRAMA
+## DESARROLLAR EL CRONOGRAMA
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan para la dirección del proyecto**  
   - ✓ Plan de gestión del cronograma  
     El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma) 
-    # 
+  <br>  
   - ✓ Linea base del alcance  
     ELa línea base del alcance es una colección de documentos que dictaminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance) 
 
@@ -765,12 +766,13 @@ El listado completo se puede visualizar en la tabla llamada [Estimación de la d
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Método de la ruta crítica:**  
   La ruta crítica o CPM recorrerá las actividades del proyecto que determinan la duración mínima del proyecto, es decir aquellas que no tienen holgura; las que si se retrasan, reatrasarian automáticamente la fecha de finalización del proyecto.  
-  #  
+<br>  
   Para la realización de este calculo es tener la duración de las actividades en días, esto porque al usar ProjectLibre nos comprometemos a usar la unidad de medida días, lo poderoso de este software, es que al nosotros terminar de introducir los datos de las actividades y sus dependencias, este nos brindará la ruta crítica resaltada en color anaranjado, con las actividades cruciales en este y en la parte de arriba se podrán visualizar las fechas de inicio y término.  
+
   ![CPM](/RutaCritica.JPG)  
   Como vemos, la ruta crítica que nos brinda es la que más se extiende en el proyecto.  
   Ahora para estar más seguros, se hará una comparativa con las ruta no crítica y la que sí en días de duración y fechas de terminado para ver si esto se está cumpliendo correctamente.  
@@ -793,7 +795,7 @@ El listado completo se puede visualizar en la tabla llamada [Estimación de la d
   
   Por ende se concluye que la optimización de recursos se dió de manera natural al asignar correctamente a los recursos en cada actividad que tenemos.
     
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="linea-base-cronograma"><strong>Línea base del cronograma</strong></span>  
 La línea base del cronograma fue registrada a través del diagrama de red generado en ProjectLibre, este se puede seleccionar en en el grupo Task views e ir al gráfico de red, el cual contiene las fechas planificadas de inicio y término de cada actividad, así como sus duraciones correspondientes; nuestra elección fue representarlo en este diagrama ya que expresa lo más importante en su totalidad.  
@@ -805,18 +807,18 @@ Esta vista permite gestionar el tiempo del proyecto, analizar el impacto de camb
 La vista de todo esto se puede realizar en el documento llamado [Cronograma del proyecto](https://drive.google.com/file/d/122zZr5V9s-m740bvlGK2wNLZwvQ-eefG/view?usp=sharing)
 ---  
 --- 
-## GESTIÓN DE LOS COSTOS DEL PROYECTO
-### PLANIFICAR LA GESTIÓN DE LOS COSTOS
+# GESTIÓN DE LOS COSTOS DEL PROYECTO
+## PLANIFICAR LA GESTIÓN DE LOS COSTOS
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan para la dirección del proyecto:**
     - ✓ Plan de Gestión del cronograma  
     El detallado de este plan, los puntos clave y su visualización estan en el punto [Plan de gestión del cronograma](#gestion-cronograma)  
-    # 
-    - ✓ EDT  
-    La Estructura de Desglose de Trabajo (EDT) y el Diccionario EDT se visualizan en el siguiente enlace [Conjunto EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
-    #   
+    <br>
+     - ✓ EDT  
+     La Estructura de Desglose de Trabajo (EDT) y el Diccionario EDT se visualizan en el siguiente enlace [Conjunto EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
+    <br> 
     - ✓ Cronograma del proyecto  
     La visualización del cronograma, descripción de que incluye y para que sirve se puede visualizar en el punto  [Cronograma del proyecto](#cronograma-proyecto)  
 
@@ -826,7 +828,7 @@ La vista de todo esto se puede realizar en el documento llamado [Cronograma del 
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Análisis de datos:**  
 El análisis de alternativas puede incluir opciones como autofinanciamiento, financiamiento mediante deuda o acciones, así como decisiones sobre adquisición de recursos (comprar, arrendar o construir)
@@ -860,24 +862,24 @@ El análisis de alternativas puede incluir opciones como autofinanciamiento, fin
 
 Como el VPN es positivo (S/ 1153.39), el proyecto es económicamente viable.
 
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="gestion-costos"><strong>Plan de gestión de los costos</strong></span>  
 El plan de gestión de los costos donde se muestran los lineamientos para tratar estos se pueden ver en la siguiente imagen:  
 ![Plan de gestión de costos](/planGestionCostos.JPG) 
   
 ---  
-### ESTIMAR COSTOS
+## ESTIMAR COSTOS
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan para la dirección del proyecto**  
   - ✓ Enunciado del alcance del proyecto
     En el enunciado del alcance o del proyecto se desarrolló las exclusiones, criterios de aceptación, etc; todos el de detallado de manera específica se visualiza en el punto [Enunciado del Proyecto](#enunciado-proyecto) 
-    # 
+  <br>
   - ✓ EDT 
     La Estructura de Desglose de Trabajo (EDT), organización y descripción de cada nivel se visualizan en el siguiente enlace [EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
-    #  
+  <br>
   - ✓ Diccionario EDT  
   El Diccionario EDT, sus items y descripción se visualizan en el siguiente enlace [Diccionario EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
 
@@ -901,7 +903,7 @@ El plan de gestión de los costos donde se muestran los lineamientos para tratar
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Estimación Basadas en tres valores:**  
   * **Variabilidad real**: Cada actividad tiene incertidumbre (no todas toman el mismo tiempo en todos los escenarios)  
@@ -924,7 +926,7 @@ El plan de gestión de los costos donde se muestran los lineamientos para tratar
  Para este proyecto usamos S/.25/hora como tarifa técnica razonable para profesionales TI (consultores, testers, desarrolladores) según rangos del mercado y estándares de proyectos de infraestructura de seguridad en PYMES.  
  La estimación se realizó por cada componente y paquete del EDT, esto se puede visualizar en el siguiente archivo [Estimación de costos](https://docs.google.com/spreadsheets/d/1yzuqrx2YK-Lhs4wWpzQa1rzFwiEKrut5a5nipxsyATA/edit?usp=sharing)  
 
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="estimacion-costos"><strong>Estimación de costos</strong></span>  
   La estimación de costos total se dividió en dos partes, los costes humanos y los costes no humanos; veamos el detallado de cada uno.  
@@ -943,17 +945,17 @@ El plan de gestión de los costos donde se muestran los lineamientos para tratar
   * **Tasa técnica S/.25/hora**, basada en sueldo mínimo ajustado (S/.9.42 + margen del 165%), justificado por rangos de consultoría TI en PYMES.  
   * **Costos no humanos** fundamentados en precios locales, licencias en USD, datos de SUNAT y tarifas de electricidad. [Referencia](https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-196/moneda-196-12.pdf) 
 ---  
-### DETERMINAR PRESUPUESTO
+## DETERMINAR PRESUPUESTO
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan para la dirección del proyecto**  
   - ✓ Enunciado del alcance del proyecto  
   En el enunciado del alcance o del proyecto se desarrolló las exclusiones, criterios de aceptación, etc; todos el de detallado de manera específica se visualiza en el punto [Enunciado del Proyecto](#enunciado-proyecto) 
-    # 
+  <br>
   - ✓ EDT  
   La Estructura de Desglose de Trabajo (EDT), organización y descripción de cada nivel se visualizan en el siguiente enlace [EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)  
-    #  
+  <br>
   - ✓ Diccionario EDT  
   El Diccionario EDT, sus items y descripción se visualizan en el siguiente enlace [Diccionario EDT](https://drive.google.com/file/d/1wwiuAjed1vmQzbNx9_8OufFtpJGHj-n2/view?usp=sharing)   
 
@@ -969,7 +971,7 @@ El plan de gestión de los costos donde se muestran los lineamientos para tratar
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa) 
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Análisis de datos:**  
   * **Reserva de Gestión - "Imprevistos No Identificados"**  
@@ -1006,11 +1008,11 @@ El plan de gestión de los costos donde se muestran los lineamientos para tratar
 
   * Presupuesto total con reservas:  
   S/.17,247.53 → Supera el límite aprobado de S/.15,000  
-  #
+  <br>
   Al sumar las reservas para imprevistos y riesgos residuales, el presupuesto total se eleva a S/.17,247.53, lo cual supera el límite aprobado de S/.15,000.  
   Este exceso debe ser gestionado estratégicamente.
   
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="linea-base-costos"><strong>Línea base de los costos</strong></span>    
   La línea base de los costos es el valor autorizado oficialmente para medir el rendimiento del proyecto y controlar los costos.  
@@ -1045,19 +1047,20 @@ El plan de gestión de los costos donde se muestran los lineamientos para tratar
   * Recomendación formal: usar línea base como presupuesto oficial, o revisar alcance para reducir costos.  
   ![Grafico de estado de documentos](/docuActualizados.JPG)   
 ---   
-### CONTROLAR EL ALCANCE
+# CONTROLAR EL ALCANCE
 
-## 📥 Entradas
+### 📥 Entradas
 
 - **Plan para la dirección del proyecto**  
   - ✓ Plan para la gestión del alcance  
   El detallado, puntos clave sobre el EDT, y el alcance se detallan en el punto [Plan de gestión de alcance](#gestion-alcance)
-    # 
+  <br>
   - ✓ Plan de gestión de los requisitos  
-  El detallado, puntos clave sobre la gestión de estos, y la metodología usada se puede ver en el punto [Plan de gestión de requisitos](#gestion-requisitos) 
-    #
+  El detallado, puntos clave sobre la gestión de estos, y la metodología usada se puede ver en el punto [Plan de gestión de requisitos](#gestion-requisitos)  
+  <br>
   - ✓ Línea base del alcance  
   La línea base del alcance es una colección de documentos que dictaminan el alcance base del proyecto, el detallado de cada uno de estos se puede ver en el punto [Línea base del alcance](#linea-base-alcance)  
+
 - **Documentos del proyecto**  
   - ✓ Estimacion de costos  
   La estimación de costos, su detallado y el desglose entre los costes humanos y no humanos se pueden ver en el punto [Estimacion de Costos](#estimacion-costos)  
@@ -1089,7 +1092,7 @@ Como se ve esto es un resumen general de los datos conforme el avance del proyec
 - **Activos de los procesos de la organización**  
   La lista de activos, su detallado más a fondo y la importancia en la organización se pueden ver en el punto [Activos de la organización](#activos-empresa)
 
-## 🛠️ Herramientas y Técnicas
+### 🛠️ Herramientas y Técnicas
 
 - **Métricas de Desempeño Clave (EVMS - Gestión del Valor Ganado):**  
 La Gestión del Valor Ganado (EVM) es una metodología integrada de desempeño del proyecto que combina mediciones de alcance, cronograma y costos para evaluar el progreso y rendimiento del proyecto.  
@@ -1122,7 +1125,7 @@ La recopilación sistemática de Datos de Desempeño del Trabajo y su posterior 
   * Control Cruzado por EDT y Recurso:  
   Técnica de revisión y comparación de los datos de desempeño a nivel de cada componente de la Estructura de Desglose del Trabajo (EDT) y por recurso asignado, permitiendo identificar desviaciones o cuellos de botella específicos.
   
-## 📤 Salidas
+### 📤 Salidas
 
 - <span id="informacion-desempeño-trabajo"><strong>Información de desempeño del trabajo</strong></span>  
 Esta sección presenta los resultados del análisis de los datos de desempeño del trabajo en contexto, comparándolos con las líneas base del proyecto.  

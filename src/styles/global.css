@@ -69,6 +69,50 @@ p {
   margin: 0 auto;
 }
 
+.post-layout {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 2rem;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  align-items: start;
+  min-height: 100%;
+}
+
+.post-layout aside {
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 2rem);
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  overflow-y: auto;
+  padding: 1rem;
+  font-size: 0.9rem;
+  line-height: 1;
+  border-radius: 4px;
+}
+
+.post-layout main {
+  min-width: 0;
+}
+
+.post-layout aside {
+  font-size: 0.9rem; /* o 0.85rem, ajusta a gusto */
+}
+
+.post-layout aside a {
+  text-decoration: none;
+  color: rgb(41, 1, 1);
+}
+
+.post-layout aside a:hover {
+  color: rgb(60, 60, 226);
+}
+
+.post-layout aside h1 {
+  color: red;
+}
 .button {
   display: inline-block;
   background-color: var(--button-color);

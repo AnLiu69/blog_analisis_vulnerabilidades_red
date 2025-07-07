@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import TableOfContents from "../components/TableOfContents.jsx";
 
 import "../styles/markdown.css";
 
@@ -16,9 +17,16 @@ const tags = frontmatter.tags;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <h1>{frontmatter.title}</h1>
+  <div class="post-layout">
+    <main>
+      <h1>{frontmatter.title}</h1>
+      <slot />
+    </main>
 
-  <slot />
+    <aside>
+      <TableOfContents client:load />
+    </aside>
+  </div>
 </BaseLayout>
 
 <style>
