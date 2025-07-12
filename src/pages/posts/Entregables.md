@@ -1143,3 +1143,52 @@ También podemos ver distintas métricas de rendiminto para saber más sobre la 
 - <span id="solicitud-cambio"><strong>Solicitud de cambio</strong></span>  
 En esta solicitud de cambio se abarcó el riesgo de incompatibilidad de versiones de python previamente instaladas, esta se realizó por el equipo de técnico intentando abarcar inconvenientes que se puedan cruzar a raíz de esto. El detallado de la solicitud se puede ver en el documento [Solicitud de cambio](https://drive.google.com/file/d/12mr52TrEf9LoP1UHIwF68Hq6gn63eajx/view?usp=sharing)  
 ---  
+---   
+# CONTROLAR LOS COSTOS
+
+## MÉTODO DEL VALOR GANADO  
+
+Se utilizó la metodología EVM, una técnica del PMBOK® que permite comparar el desempeño real del proyecto frente a lo planificado.  
+Las variables clave fueron:  
+* **EV (Earned Value):** mide cuánto valor del trabajo planificado ha sido efectivamente ejecutado.  
+* **AC (Actual Cost):** representa el dinero realmente gastado hasta el momento.  
+* **PV (Planned Value):** estima cuánto valor se debería haber alcanzado hasta ahora, según el plan.   
+* **CPI (Cost Performance Index):** eficiencia de los costos.  
+* **SPI (Schedule Performance Index):** eficiencia respecto al tiempo.
+
+Para saber en que gráfico y tablas nos basamos para poder hacer el gráfico de los valores acumulados, adjuntamos la siguiente imagen que describe lo  mencionado anteriormente.
+![Gráfica de valores acumulados](/valoresAcumulados.JPG)  
+
+En el contexto de nuestro proyecto, se realizo la tabla y gráfico que se ve en la imagen basandonos en un avance ficticio del 50% del proyecto. Así se realizó un análisis de cada EDT y se realizó la tabla con respecto al EV, AC y PV.  
+![Tabla valores acumulados proyecto](/tablaValores.JPG) 
+![Gráfico valores acumulados proyecto](/graficoValolres.JPG)  
+Para una visualización más detallada de lo mostrado anteriormente revisar el documento llamado [Gráfico de valores acumulados](https://docs.google.com/spreadsheets/d/1enYxIb1UgaGSZjiXZHJwhCjs8BIMDelMvV5NLrZ4kGM/edit?usp=sharing)  
+
+### INTERPRETACIÓN  
+Durante la simulación del proyecto, se realizó un análisis de desempeño basado en los principios del PMBOK, considerando que ya se ha ejecutado aproximadamente el 50% del cronograma total. Esta evaluación se centró en comparar tres valores clave: el Valor Planificado (PV), el Costo Real (AC) y el Valor Ganado (EV), con el fin de determinar el estado actual del proyecto en cuanto a avance, tiempo y eficiencia presupuestal.  
+
+El gráfico acumulado muestra que la línea azul correspondiente al Valor Ganado (EV) se ubica por encima de las curvas del Valor Planificado (PV) y del Costo Real (AC). Esta disposición gráfica implica que el proyecto está generando más valor del esperado a esta altura de ejecución y que, además, lo está haciendo a un costo menor de lo proyectado, lo cual representa una condición favorable tanto en eficiencia como en productividad.  
+
+En términos numéricos acumulados:  
+* El Valor Planificado (PV) asciende a S/. 7,158.23.  
+* El Costo Real (AC) es de S/. 6,200.  
+* El Valor Ganado (EV) alcanza los S/. 7,900.  
+
+Este escenario positivo se traduce en indicadores clave de desempeño:  
+![Indicadores de desmpeño](/indicadoresDesempe.JPG)  
+Ambos índices > 1: **el proyecto va mejor de lo planificado**  
+Sin embargo, al desglosar por componentes del proyecto (los seis paquetes EDT), se observan matices importantes:  
+* EDT 1.1 (Mecanismos de protección de red) presenta un desempeño sólido, con un 62.5% de avance, sin desviaciones de costo, pero sí cierta demora en tiempo (SPI: 0.6).  
+* EDT 1.2 y 1.3 (Eventos de seguridad gestionados y Políticas de seguridad) muestran avances bajos, del 33.1% y 38.2% respectivamente, y un SPI inferior a 0.5, lo que indica un posible riesgo de retraso crítico si no se ajusta la ejecución.  
+* EDT 1.4 (Capacitación) avanza al 41.3%, pero su CPI es de apenas 0.9, lo cual sugiere una ligera ineficiencia en el uso de recursos económicos.  
+* EDT 1.5 (Acondicionamiento de activos tecnológicos) tiene un CPI más preocupante: 0.8. Está avanzando a buen ritmo (54.5%), pero su costo está superando lo previsto en relación al valor que entrega.  
+* EDT 1.6 (Renovación tecnológica) refleja un balance correcto, con SPI de 0.6 y CPI de 1.0  
+
+En conjunto, los datos indican que el proyecto mantiene un estado saludable, pero que necesita ajustes tácticos en algunos componentes específicos para no comprometer la eficiencia global.  
+
+Por lo tanto, se recomienda reforzar el monitoreo sobre los EDT con menores índices de rendimiento, redistribuir cargas operativas o recursos y mantener los niveles de eficiencia que se evidencian en las áreas que están cumpliendo e incluso superando las metas.  
+
+Esta evaluación, basada en los principios de valor ganado y con indicadores CPI y SPI, demuestra que el proyecto puede alcanzar sus objetivos dentro del presupuesto estimado si se corrigen los desvíos actuales antes de avanzar con la segunda mitad.  
+  
+---
+
